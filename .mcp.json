@@ -1,0 +1,7 @@
+{
+  "Konnect": {
+    "type": "stdio",
+    "command": "C:/Users/nicol/OneDrive/Documents2/KiCad/10.0/3rdparty/plugins/com_github_mixelpixx_konnect/bin/konnect.exe",
+    "args": []
+  }
+}

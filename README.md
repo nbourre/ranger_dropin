@@ -10,7 +10,7 @@ Project files: KiCad 10 (`BEAPER-Nano.kicad_sch`, `BEAPER-Nano.kicad_pcb`), cust
 
 ## 1. Makeblock Auriga (original controller)
 
-Source: `Me Auriga Schematic.pdf` (one page, read as text). Items marked *(memory)* are not visible in that PDF and come from general knowledge of the mBot Ranger.
+Source: `Me Auriga Schematic.pdf` (one page, read as text). Items marked *(memory)* are not visible in that PDF and come from general knowledge of the mBot Ranger. The full pin-by-pin map is in [AURIGA_PINMAP.md](AURIGA_PINMAP.md).
 
 | Function | Details |
 |---|---|
@@ -56,7 +56,7 @@ Carrier board for the ESP32-S3-DevKitC-1-N16R8 (U5, two 22-pin headers, 22.86 mm
 - **Battery voltage monitor** (`VOL_BAT`, like the Auriga's A4/VOL_BAT): R35 100 kΩ / R36 51 kΩ divider + C11 1 µF on **GPIO 3** (ADC1_CH2). Ratio 0.338, so a 9 V pack reads about 3.0 V. It is tapped after D8, so it reads about 0.4 V low: calibrate in firmware. GPIO 3 is a strapping pin, which only matters at reset.
 - Ambient light sensor (TEPT4400) removed; the Auriga's light module will be reused instead (see TODO).
 - Temperature sensor (MCP9700A, on A1), wired directly (no selection jumpers).
-- Line / floor sensors and potentiometers were **removed** to free GPIO. As on the Auriga, line-following is done by an external I2C module on the Qwiic connector (J4) or H1/H4.
+- Line / floor sensors and potentiometers were **removed** to free GPIO. As on the Auriga, line-following is done by an external I2C module (home-made: Adafruit ATtiny1616 with seesaw firmware, sensors wired to the ATtiny) on the Qwiic connector (J4) or H1/H4.
 - Headers H1 to H4: analog or digital I/O at 3.3 V, or a 4-pin sonar (HC-SR04) through the bridging jumpers.
 - Headers H5 to H8: 5 V outputs through the **74HCT541** level shifter (U2), for servos or modules.
 - Qwiic / JST-SH I2C connector (J4), SPI / TFT connector (J3).
@@ -124,5 +124,5 @@ Buzzer, temperature sensor, IMU, battery voltage sensing, motors with encoders, 
 - [ ] **Distance sensor** such as the VL53L1X (I2C, 3.3 V): add a connector or an on-board footprint on the I2C bus (A4/SDA = GPIO 8, A5/SCL = GPIO 9). XSHUT and GPIO1 (interrupt) can use free GPIO (4, 5).
 - [ ] **Reuse the Auriga's RGB LED ring module** (12 LEDs, `D44/RGB` on the Auriga). Put the connector at the correct physical position and pinout so the module is plug and play. Drive it from a free GPIO (GPIO 48 or 4/5) through a 3.3 V → 5 V level shifter if required.
 - [ ] **Reuse the Auriga's ambient light module** (LIGHT1/LIGHT2). Same requirement: matching connector position and pinout, on an ADC-capable GPIO (A0/GPIO 1 is now free for this).
-- [ ] Line-follower I2C module connector (replaces the removed floor/line sensors).
+- [ ] Line-follower I2C module connector (replaces the removed floor/line sensors). The home-made line sensor is a 5-sensor reflectance array on an Adafruit ATtiny1616 board running seesaw firmware (analog reads on seesaw pins 0 to 4, I2C address 0x49 by default, which does not clash with the LSM6DS3 at 0x6A). Source: the private repo `nbourre/LyneTracker` (PlatformIO library with calibration, 0..4000 line position and PID, built on `Adafruit seesaw Library`). Its current target is an ATmega2560 (Auriga), so porting to the ESP32-S3 only needs the I2C pins (SDA GPIO 8, SCL GPIO 9, 3.3 V) in `Wire.begin()`. Qwiic J4 is a good fit. Check that the module's pull-ups and supply voltage work at 3.3 V.
 - [ ] Update the PCB from the schematic once the board dimensions are known.

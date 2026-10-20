@@ -2,7 +2,7 @@
 
 Goal: replace the Arduino-based **Makeblock Auriga** controller of an mBot Ranger with a custom carrier board for an **ESP32-S3-DevKitC-1-N16R8**, based on the mirobo.tech **BEAPER Nano** schematic converted to SMD parts (JLCPCB/LCSC, Basic parts where possible).
 
-Project files: KiCad 10 (`BEAPER-Nano.kicad_sch`, `BEAPER-Nano.kicad_pcb`), custom footprint library `BEAPER-Nano.pretty`, custom symbol library `ESP32S3.kicad_sym`. Reference: `auriga/Me Auriga Schematic.pdf`.
+Project files: KiCad 10 (`Beaper-Esp32s3.kicad_sch`, `Beaper-Esp32s3.kicad_pcb`), custom footprint library `BEAPER-Nano.pretty`, custom symbol library `ESP32S3.kicad_sym`. Reference: `auriga/Me Auriga Schematic.pdf`.
 
 > **Status:** schematic is updated (ERC: 0 errors). The PCB has the new outline (65.5 × 100 mm, R2) and the three guide holes; components are **not** placed yet (the old footprints are still on the board).
 

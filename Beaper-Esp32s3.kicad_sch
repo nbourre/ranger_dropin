@@ -15219,7 +15219,7 @@
 			(uuid "8e5e9882-e7a8-4710-b724-debb1812526e")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C1")
 					(unit 1)
@@ -15298,7 +15298,7 @@
 			(uuid "4c305212-0a8d-47af-a993-c682fdfd43dc")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "LS1")
 					(unit 1)
@@ -15383,7 +15383,7 @@
 			(uuid "432cb14a-694f-459a-9e30-c9d30363f537")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "H1")
 					(unit 1)
@@ -15468,7 +15468,7 @@
 			(uuid "dbf80bd8-461a-48c2-a24b-412440a99864")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "H2")
 					(unit 1)
@@ -15553,7 +15553,7 @@
 			(uuid "934c19b4-f64f-4e42-a85e-8576c2e92952")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "H3")
 					(unit 1)
@@ -15638,7 +15638,7 @@
 			(uuid "c55b676f-4e0a-4101-ba97-00b1358a79dd")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "H4")
 					(unit 1)
@@ -15719,7 +15719,7 @@
 			(uuid "d475b65c-8aff-4afb-97e1-c54e2ac8b8df")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "D2")
 					(unit 1)
@@ -15800,7 +15800,7 @@
 			(uuid "1de85031-9810-4511-a8e5-8fc28f5bb9bb")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "D3")
 					(unit 1)
@@ -15881,7 +15881,7 @@
 			(uuid "1d791352-d591-40b1-be05-1476d831bec2")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "D4")
 					(unit 1)
@@ -15962,7 +15962,7 @@
 			(uuid "5aa61e5e-1b75-483a-806b-011ec86386b5")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "D5")
 					(unit 1)
@@ -16041,7 +16041,7 @@
 			(uuid "e713afcb-0ad9-4202-8fce-2fb74830a851")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "SW1")
 					(unit 1)
@@ -16120,7 +16120,7 @@
 			(uuid "8a539dc2-f476-48de-9eae-7d7ce05370cf")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R1")
 					(unit 1)
@@ -16201,7 +16201,7 @@
 			(uuid "8b87151d-0610-4343-9ace-0b29f285507c")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R2")
 					(unit 1)
@@ -16282,7 +16282,7 @@
 			(uuid "4e120a7a-003f-4922-822a-8d29e2bd2de6")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "D1")
 					(unit 1)
@@ -16361,7 +16361,7 @@
 			(uuid "1e40aa64-be02-4113-a49d-9bae7a5331ad")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R15")
 					(unit 1)
@@ -16442,7 +16442,7 @@
 			(uuid "49339521-16b8-463d-be4d-2afce06e238b")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R7")
 					(unit 1)
@@ -16523,7 +16523,7 @@
 			(uuid "0789c018-baf5-4a9a-94f8-ebb91f545f31")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R8")
 					(unit 1)
@@ -16604,7 +16604,7 @@
 			(uuid "6bdff9f8-eef2-4db4-978d-72a64f477b5f")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R9")
 					(unit 1)
@@ -16685,7 +16685,7 @@
 			(uuid "5eb4aecd-e0df-42c4-9716-e679c869f63c")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R10")
 					(unit 1)
@@ -16764,7 +16764,7 @@
 			(uuid "a31b1d33-2ffa-41f0-8ffa-8510621d889e")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R11")
 					(unit 1)
@@ -16843,7 +16843,7 @@
 			(uuid "dda10f10-f323-4502-95bf-dc796cf5a506")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R13")
 					(unit 1)
@@ -16922,7 +16922,7 @@
 			(uuid "cada53a5-64df-4267-a82b-5dc3fbd6f948")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R14")
 					(unit 1)
@@ -17001,7 +17001,7 @@
 			(uuid "e662252b-d91b-4903-9767-626c0892a8ee")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R12")
 					(unit 1)
@@ -17078,7 +17078,7 @@
 			(uuid "bd55fc84-ea6b-4ba2-aa14-3ce31870c17e")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0112")
 					(unit 1)
@@ -17155,7 +17155,7 @@
 			(uuid "f534dda9-0971-4076-9717-405f5f6f1264")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0111")
 					(unit 1)
@@ -17232,7 +17232,7 @@
 			(uuid "2d984774-10c5-4a20-8f63-2c34b15b3e99")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0107")
 					(unit 1)
@@ -17309,7 +17309,7 @@
 			(uuid "cdef7daf-67d7-4201-b58f-46f98efe4b29")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR08")
 					(unit 1)
@@ -17386,7 +17386,7 @@
 			(uuid "c003efba-12d7-497c-b176-7e1cae7c7c43")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR09")
 					(unit 1)
@@ -17463,7 +17463,7 @@
 			(uuid "7552c34f-abdc-47b8-80f8-cbb3b75bea92")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR010")
 					(unit 1)
@@ -17540,7 +17540,7 @@
 			(uuid "bf5bff82-2993-4c62-8b41-21e2a1a34eab")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR011")
 					(unit 1)
@@ -17617,7 +17617,7 @@
 			(uuid "875793f5-2a2f-4749-af00-b0c4b4292712")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR012")
 					(unit 1)
@@ -17694,7 +17694,7 @@
 			(uuid "fc50479d-4703-45a5-a8e4-81545055ad1e")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR018")
 					(unit 1)
@@ -17769,7 +17769,7 @@
 		(body_style 1)
 		(in_pos_files yes)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "G1")
 					(unit 1)
@@ -17848,7 +17848,7 @@
 			(uuid "9d7fc559-5219-40dd-9754-af2dc91054bd")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R30")
 					(unit 1)
@@ -17927,7 +17927,7 @@
 			(uuid "3364fede-e016-425c-816f-1ac64e79ee0c")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR039")
 					(unit 1)
@@ -18004,7 +18004,7 @@
 			(uuid "059e7413-bd53-4932-8852-f6d92b059cc8")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR014")
 					(unit 1)
@@ -18085,7 +18085,7 @@
 			(uuid "26324b7c-fbd6-4551-abd9-86cb3842d2fc")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C5")
 					(unit 1)
@@ -18166,7 +18166,7 @@
 			(uuid "c4a93ca1-b6a3-4117-bdad-01d0a0c2b461")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R17")
 					(unit 1)
@@ -18250,7 +18250,7 @@
 			(uuid "99497048-9b2a-4b10-86fe-638d6067e8ab")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U1")
 					(unit 1)
@@ -18327,7 +18327,7 @@
 			(uuid "df944d6f-eb06-419f-bd42-ee5dfafe6c54")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR029")
 					(unit 1)
@@ -18405,7 +18405,7 @@
 			(uuid "cb942954-fefb-40d8-a1e0-bc856f0f50d9")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR07")
 					(unit 1)
@@ -18482,7 +18482,7 @@
 			(uuid "7acac94a-3be6-400f-8ad7-b0698d9cfa97")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR021")
 					(unit 1)
@@ -18567,7 +18567,7 @@
 			(uuid "971eb430-b2e4-4a21-9103-b922d8f13c19")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "H6")
 					(unit 1)
@@ -18646,7 +18646,7 @@
 			(uuid "de4b95dd-7333-4c5b-93df-adb4f05ee9f8")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR06")
 					(unit 1)
@@ -18724,7 +18724,7 @@
 			(uuid "cb453518-cf15-4e3b-acd8-a3b979814ce9")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0108")
 					(unit 1)
@@ -18803,7 +18803,7 @@
 			(uuid "7c96a140-92ea-4b25-98a3-2614610a303e")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R28")
 					(unit 1)
@@ -18891,7 +18891,7 @@
 			(uuid "c56e5a7d-438c-4300-9d06-ac35d0b29ded")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J4")
 					(unit 1)
@@ -18968,7 +18968,7 @@
 			(uuid "ecc2bfdf-5a4e-4330-af8b-84d7ec376c4c")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR013")
 					(unit 1)
@@ -19046,7 +19046,7 @@
 			(uuid "b54ab463-0f61-4e12-9aac-0d1ee9995a25")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0110")
 					(unit 1)
@@ -19123,7 +19123,7 @@
 			(uuid "a294c3e6-fa07-4aff-9458-2a3f725b6cec")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0118")
 					(unit 1)
@@ -19204,7 +19204,7 @@
 			(uuid "52ec1da1-0ccc-4828-bc99-5eb28a8e6a31")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R19")
 					(unit 1)
@@ -19283,7 +19283,7 @@
 			(uuid "91879986-df58-42e2-b806-e4b826bd6a58")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR031")
 					(unit 1)
@@ -19368,7 +19368,7 @@
 			(uuid "9b33682f-1a49-45f7-b7a8-139652c10675")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U4")
 					(unit 1)
@@ -19447,7 +19447,7 @@
 			(uuid "2a6b1085-67be-4949-b152-4fc49c5a15da")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR05")
 					(unit 1)
@@ -19524,7 +19524,7 @@
 			(uuid "f7750620-5145-4561-9ba3-20123c11dd0e")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR035")
 					(unit 1)
@@ -19609,7 +19609,7 @@
 			(uuid "a712507a-d9fc-41e8-a0a6-38a06816a694")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "H7")
 					(unit 1)
@@ -19686,7 +19686,7 @@
 			(uuid "4a157628-b695-410d-83aa-9b801987fb3e")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR015")
 					(unit 1)
@@ -19767,7 +19767,7 @@
 			(uuid "fe61454f-8d09-42bc-a5be-7b120812a61b")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C2")
 					(unit 1)
@@ -19844,7 +19844,7 @@
 			(uuid "5f11e48c-9f21-46d9-aafc-bae7395a2217")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR030")
 					(unit 1)
@@ -19921,7 +19921,7 @@
 			(uuid "79917f90-562b-4893-a445-82e5b2b8d1c8")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR02")
 					(unit 1)
@@ -19998,7 +19998,7 @@
 			(uuid "e8a50028-dafd-4580-b2e4-3e8f7ed251ef")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR044")
 					(unit 1)
@@ -20075,7 +20075,7 @@
 			(uuid "45cddf4d-1e8a-4928-a342-c03e4ac437be")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR020")
 					(unit 1)
@@ -20156,7 +20156,7 @@
 			(uuid "7e39460c-bbbb-4401-bbfe-e987544a3dc5")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C6")
 					(unit 1)
@@ -20233,7 +20233,7 @@
 			(uuid "4ffb2801-31cb-4243-a241-e78b45f09c94")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR042")
 					(unit 1)
@@ -20310,7 +20310,7 @@
 			(uuid "82b85dbe-fe54-4a1f-ae80-5733ea0bcafe")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR01")
 					(unit 1)
@@ -20446,7 +20446,7 @@
 			(uuid "18aee88e-33ff-452c-9b37-048ebb9ba06b")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U2")
 					(unit 1)
@@ -20525,7 +20525,7 @@
 			(uuid "ea97ac81-6738-44e9-aec0-31499923f8f2")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR036")
 					(unit 1)
@@ -20606,7 +20606,7 @@
 			(uuid "253c8351-b0f7-4352-b158-d6d7a564d8e0")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C7")
 					(unit 1)
@@ -20685,7 +20685,7 @@
 			(uuid "03be1ebf-bb04-40b1-83d9-084294b9be2d")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR034")
 					(unit 1)
@@ -20764,7 +20764,7 @@
 			(uuid "17db5536-574e-454f-8644-cc67d91fa634")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR041")
 					(unit 1)
@@ -20841,7 +20841,7 @@
 			(uuid "e080d6f1-f561-459f-8de0-1dda32251368")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0113")
 					(unit 1)
@@ -20922,7 +20922,7 @@
 			(uuid "2c4f8377-7367-4964-9eda-0db1182374d2")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C3")
 					(unit 1)
@@ -21001,7 +21001,7 @@
 			(uuid "26511199-d5d1-4bae-afdc-22dcf12e9a7e")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR040")
 					(unit 1)
@@ -21080,7 +21080,7 @@
 			(uuid "58ccaa28-158f-4198-96c9-158208dc7c42")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R29")
 					(unit 1)
@@ -21173,7 +21173,7 @@
 			(uuid "3d5292e5-06c1-4136-bf89-ea05b0fc8aeb")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "CON1")
 					(unit 1)
@@ -21250,7 +21250,7 @@
 			(uuid "3b8d70a7-520c-4be1-a468-891605de7164")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR033")
 					(unit 1)
@@ -21327,7 +21327,7 @@
 			(uuid "92c61f40-65fb-4bfa-be42-2515882e2b5a")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR043")
 					(unit 1)
@@ -21412,7 +21412,7 @@
 			(uuid "e85cbfd0-759f-46dd-973a-ad4f65fcee44")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "H5")
 					(unit 1)
@@ -21490,7 +21490,7 @@
 			(uuid "f2e6d96b-8409-44d2-b5c5-553e8c44fce2")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR04")
 					(unit 1)
@@ -21567,7 +21567,7 @@
 			(uuid "0e6d2680-256e-43d1-9fc3-5e1b18ed04aa")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR022")
 					(unit 1)
@@ -21652,7 +21652,7 @@
 			(uuid "02698e5d-fef8-48b5-97fc-f26c6cd71ef4")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "H8")
 					(unit 1)
@@ -21729,7 +21729,7 @@
 			(uuid "f014cee7-5949-4c96-b0ec-27d11316eddb")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR03")
 					(unit 1)
@@ -21829,7 +21829,7 @@
 			(uuid "983544e0-f987-4478-b975-d659151b6e55")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J3")
 					(unit 1)
@@ -21910,7 +21910,7 @@
 			(uuid "bbfdca8d-681d-4ca5-b615-acf3e778c0ca")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R16")
 					(unit 1)
@@ -21989,7 +21989,7 @@
 			(uuid "ee035f9a-ceca-43b9-8954-5623450b8f07")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R27")
 					(unit 1)
@@ -22070,7 +22070,7 @@
 			(uuid "aa3a5246-749a-41c6-a474-85f68a261182")
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C4")
 					(unit 1)
@@ -22141,7 +22141,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U3")
 					(unit 1)
@@ -22202,7 +22202,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR027")
 					(unit 1)
@@ -22263,7 +22263,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR046")
 					(unit 1)
@@ -22324,7 +22324,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR047")
 					(unit 1)
@@ -22385,7 +22385,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR048")
 					(unit 1)
@@ -22446,7 +22446,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR049")
 					(unit 1)
@@ -22506,7 +22506,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "F1")
 					(unit 1)
@@ -22566,7 +22566,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "D9")
 					(unit 1)
@@ -22626,7 +22626,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "D8")
 					(unit 1)
@@ -22688,7 +22688,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C8")
 					(unit 1)
@@ -22749,7 +22749,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR050")
 					(unit 1)
@@ -22810,7 +22810,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR051")
 					(unit 1)
@@ -22871,7 +22871,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR052")
 					(unit 1)
@@ -22931,7 +22931,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U5")
 					(unit 1)
@@ -22992,7 +22992,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR024")
 					(unit 1)
@@ -23053,7 +23053,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR025")
 					(unit 1)
@@ -23114,7 +23114,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR026")
 					(unit 1)
@@ -23174,7 +23174,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "M1")
 					(unit 1)
@@ -23234,7 +23234,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "M2")
 					(unit 1)
@@ -23294,7 +23294,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R31")
 					(unit 1)
@@ -23354,7 +23354,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R32")
 					(unit 1)
@@ -23414,7 +23414,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R33")
 					(unit 1)
@@ -23474,7 +23474,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R34")
 					(unit 1)
@@ -23536,7 +23536,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C9")
 					(unit 1)
@@ -23607,7 +23607,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U6")
 					(unit 1)
@@ -23669,7 +23669,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C10")
 					(unit 1)
@@ -23729,7 +23729,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R36")
 					(unit 1)
@@ -23789,7 +23789,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R35")
 					(unit 1)
@@ -23851,7 +23851,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C11")
 					(unit 1)
@@ -23913,7 +23913,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J5")
 					(unit 1)
@@ -23975,7 +23975,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J6")
 					(unit 1)
@@ -24037,7 +24037,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J7")
 					(unit 1)
@@ -24097,7 +24097,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J8")
 					(unit 1)
@@ -24157,7 +24157,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J9")
 					(unit 1)
@@ -24217,7 +24217,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J10")
 					(unit 1)
@@ -24277,7 +24277,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J11")
 					(unit 1)
@@ -24337,7 +24337,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J12")
 					(unit 1)
@@ -24397,7 +24397,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J13")
 					(unit 1)
@@ -24457,7 +24457,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J14")
 					(unit 1)
@@ -24517,7 +24517,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U7")
 					(unit 1)
@@ -24579,7 +24579,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C12")
 					(unit 1)
@@ -24639,7 +24639,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R38")
 					(unit 1)
@@ -24699,7 +24699,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R37")
 					(unit 1)
@@ -24759,7 +24759,7 @@
 			)
 		)
 		(instances
-			(project "BEAPER-Nano"
+			(project "Beaper-Esp32s3"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R39")
 					(unit 1)

@@ -525,7 +525,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "BEAPER-Nano.kicad_pro",
+    "filename": "Beaper-Esp32s3.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -711,8 +711,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "BEAPER-Nano.kicad_sch",
-        "name": "BEAPER-Nano",
+        "filename": "Beaper-Esp32s3.kicad_sch",
+        "name": "Beaper-Esp32s3",
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
@@ -722,7 +722,7 @@
   "sheets": [
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
-      "BEAPER-Nano"
+      "Beaper-Esp32s3"
     ]
   ],
   "text_variables": {},

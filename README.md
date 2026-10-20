@@ -2,15 +2,17 @@
 
 Goal: replace the Arduino-based **Makeblock Auriga** controller of an mBot Ranger with a custom carrier board for an **ESP32-S3-DevKitC-1-N16R8**, based on the mirobo.tech **BEAPER Nano** schematic converted to SMD parts (JLCPCB/LCSC, Basic parts where possible).
 
-Project files: KiCad 10 (`BEAPER-Nano.kicad_sch`, `BEAPER-Nano.kicad_pcb`), custom footprint library `BEAPER-Nano.pretty`, custom symbol library `ESP32S3.kicad_sym`. Reference: `Me Auriga Schematic.pdf`.
+Project files: KiCad 10 (`BEAPER-Nano.kicad_sch`, `BEAPER-Nano.kicad_pcb`), custom footprint library `BEAPER-Nano.pretty`, custom symbol library `ESP32S3.kicad_sym`. Reference: `auriga/Me Auriga Schematic.pdf`.
 
-> **Status:** schematic is updated (ERC: 0 errors). The PCB has **not** been updated yet. It still contains the old footprints and is waiting for the board dimensions.
+> **Status:** schematic is updated (ERC: 0 errors). The PCB has the new outline (65.5 × 100 mm, R2) and the three guide holes; components are **not** placed yet (the old footprints are still on the board).
 
 ---
 
 ## 1. Makeblock Auriga (original controller)
 
-Source: `Me Auriga Schematic.pdf` (one page, read as text). Items marked *(memory)* are not visible in that PDF and come from general knowledge of the mBot Ranger. The full pin-by-pin map is in [AURIGA_PINMAP.md](AURIGA_PINMAP.md).
+Source: `auriga/Me Auriga Schematic.pdf` (one page, read as text). Items marked *(memory)* are not visible in that PDF and come from general knowledge of the mBot Ranger. The full pin-by-pin map is in [AURIGA_PINMAP.md](AURIGA_PINMAP.md).
+
+**Board size (measured): 65.5 × 100 mm, corner radius 2 mm** (target outline for the drop-in PCB). The original has no mounting holes (clipped in).
 
 | Function | Details |
 |---|---|
@@ -60,45 +62,54 @@ Carrier board for the ESP32-S3-DevKitC-1-N16R8 (U5, two 22-pin headers, 22.86 mm
 - Headers H1 to H4: analog or digital I/O at 3.3 V, or a 4-pin sonar (HC-SR04) through the bridging jumpers.
 - Headers H5 to H8: 5 V outputs through the **74HCT541** level shifter (U2), for servos or modules.
 - Qwiic / JST-SH I2C connector (J4), SPI / TFT connector (J3).
-- Piezo buzzer (LS1), 4 push buttons (SW2 to SW5), 4 status LEDs (D2 to D5), reset button (SW1).
+- Piezo buzzer (LS1), 4 status LEDs (D2 to D5), reset button (SW1).
 
 ### GPIO mapping (Arduino-style net name → ESP32-S3 GPIO)
 
 | Net | GPIO | Net | GPIO |
 |---|---|---|---|
-| A0 (free) | 1 | D5 | 17 |
+| PA_S1 (RJ25 A) | 1 | D5 | 17 |
 | A1 | 2 | D6 | 18 |
-| A2 (free) | 4 | D7 | 21 |
-| A3 (free) | 5 | D8 (buzzer) | 47 |
-| A6 | 6 | D9 | 38 |
-| A7 | 7 | D10 | 10 |
+| A2 (LIGHT2) | 4 | D7 | 21 |
+| A3 (LIGHT1) | 5 | D8 (buzzer) | 47 |
+| A6 | 6 | D9 (J3, RJ25 C) | 38 |
+| A7 | 7 | D10 (J3, RJ25 C) | 10 |
 | A4/SDA | 8 | D11/COPI | 11 |
 | A5/SCL | 9 | D12/CIPO | 13 |
-| D0/RX0 (SW2) | 44 | D13/SCK | 12 |
-| D1/TX0 (SW3) | 43 | ~{RST} (SW1) | EN |
-| D2 (SW4) | 14 | Encoders | 39, 40, 41, 42 |
-| D3 (SW5) | 15 | | |
+| PB_S2 (RJ25 B) | 44 | D13/SCK | 12 |
+| PB_S1 (RJ25 B) | 43 | ~{RST} (SW1) | EN |
+| KEY_GPIO | 14 | Encoders | 39, 40, 41, 42 |
+| PA_S2 (RJ25 A) | 15 | RGB_3V3 (ring data) | 48 |
 | D4 | 16 | VOL_BAT | 3 |
 
-Remaining GPIO: **1, 4, 5** (ex A0/A2/A3, no connect) and **48** are free (also drives the on-board RGB LED, suitable for a WS2812 chain). **45, 46, 0** are strapping pins (usable with care). **19, 20** are USB D−/D+. **35, 36, 37** are used by the octal PSRAM and must stay unused.
+No free GPIO is left. **45, 46, 0** are strapping pins (unused, usable with care). **19, 20** are USB D−/D+. **35, 36, 37** are used by the octal PSRAM and must stay unused. GPIO 43/44 are the UART0 pins of the DevKitC-1 USB-UART bridge: a module on RJ25 port B may conflict while that USB port is connected.
+
+### Panel module, RJ25, Qwiic and expansion connectors
+- **J12** PRGB (female 1x7, left to right): V-BAT (`VCC`), KEY, A2/LIGHT2, A3/LIGHT1, RGB, GND, 5 V. **J13, J14**: female 1x2 GND supports.
+- **KEY** is active high: the module button ties KEY to V-BAT (measured with a multimeter). R38 15k / R37 10k to GND divide it to under 3.4 V on GPIO 14. Configure GPIO 14 as input with no internal pull-up.
+- **RGB ring data:** GPIO 48 → U7 74AHCT1G125 (3.3 V → 5 V buffer) → R39 220 Ω → J12.5.
+- **J5, J6, J7** RJ25 (6P6C), low-power side only: 1 SCL, 2 SDA, 3 GND, 4 +5 V, 5 S1, 6 S2. I2C is 3.3 V logic (5 V on the Auriga); a module with 5 V pull-ups may be a problem. Port C shares D9/D10 with the SPI header J3.
+- **J8, J9** extra Qwiic (JST-SH 4-pin: GND, 3V3, SDA, SCL), same as J4.
+- **J10** VL53L1X module (Amazon board, silkscreen order): 1 VIN (3.3 V), 2 GND, 3 SCL, 4 SDA, 5 GPIO1 (not connected), 6 XSHUT (not connected). On placement it must point the same way as the Auriga motor connectors.
+- **J11** OLED I2C socket, assumed order GND, 3V3, SCL, SDA (module not yet chosen, to confirm).
 
 ---
 
 ## 3. Comparison
 
 ### On the Auriga but missing on the new board
-- 12-LED RGB ring (only the DevKit's single RGB LED, GPIO 48, is available).
+- 12-LED ring itself and the light sensors: the Auriga **panel module is reused** through J12 to J14 (the ring data line is level-shifted from GPIO 48).
 - Microphone and amplifier.
-- A second ambient light sensor.
-- RJ25 ports (headers 2.54 mm and Qwiic are used instead).
 - Power switch.
+- RJ25 ports: only 3 low-power ports (J5 to J7) are provided, no motor-power side.
 - Dedicated Bluetooth / 2.4 G socket. Wi-Fi and BLE are built into the ESP32-S3.
 
 ### On the new board but not on the Auriga
 - SPI / TFT connector (J3).
-- Qwiic / JST-SH I2C connector (J4).
+- Qwiic / JST-SH I2C connectors (J4, J8, J9).
+- VL53L1X module socket (J10) and OLED I2C socket (J11).
 - Headers H1 to H4 (3.3 V analog/digital or sonar) and H5 to H8 (5 V outputs).
-- Four user buttons (the Auriga has one).
+- Onboard user buttons were removed; the user button is planned on the panel module `KEY` pin (see TODO).
 - Four simple status LEDs.
 - Wi-Fi and BLE through the ESP32-S3, with native USB.
 
@@ -116,13 +127,18 @@ Buzzer, temperature sensor, IMU, battery voltage sensing, motors with encoders, 
 - Optional additions to match the Auriga: RGB LED ring on GPIO 48, power switch.
 - The title block comment 3 still says "for Arduino Nano ESP32".
 - The schematic page was enlarged from B to C to make room for the IMU.
-- ERC: 0 errors, 83 warnings that were already there (library symbol mismatches, missing `Conn_01x03_Male` and `ARPS` libraries, a dangling wire end).
+- ERC: 0 errors, 58 warnings (library symbol mismatches, missing `Conn_01x03_Male`, `ARPS` and `UBMP4.1-rescue` libraries, same local/global label names, one U6 SDO pin type conflict). Leftover wires, orphan power symbols and floating labels were cleaned.
 
 ---
 
 ## 5. TODO
-- [ ] **Distance sensor** such as the VL53L1X (I2C, 3.3 V): add a connector or an on-board footprint on the I2C bus (A4/SDA = GPIO 8, A5/SCL = GPIO 9). XSHUT and GPIO1 (interrupt) can use free GPIO (4, 5).
-- [ ] **Reuse the Auriga's RGB LED ring module** (12 LEDs, `D44/RGB` on the Auriga). Put the connector at the correct physical position and pinout so the module is plug and play. Drive it from a free GPIO (GPIO 48 or 4/5) through a 3.3 V → 5 V level shifter if required.
-- [ ] **Reuse the Auriga's ambient light module** (LIGHT1/LIGHT2). Same requirement: matching connector position and pinout, on an ADC-capable GPIO (A0/GPIO 1 is now free for this).
-- [ ] Line-follower I2C module connector (replaces the removed floor/line sensors). The home-made line sensor is a 5-sensor reflectance array on an Adafruit ATtiny1616 board running seesaw firmware (analog reads on seesaw pins 0 to 4, I2C address 0x49 by default, which does not clash with the LSM6DS3 at 0x6A). Source: the private repo `nbourre/LyneTracker` (PlatformIO library with calibration, 0..4000 line position and PID, built on `Adafruit seesaw Library`). Its current target is an ATmega2560 (Auriga), so porting to the ESP32-S3 only needs the I2C pins (SDA GPIO 8, SCL GPIO 9, 3.3 V) in `Wire.begin()`. Qwiic J4 is a good fit. Check that the module's pull-ups and supply voltage work at 3.3 V.
-- [ ] Update the PCB from the schematic once the board dimensions are known.
+- [x] **Distance sensor** VL53L1X: socket J10 on the I2C bus (Amazon module, order VIN, GND, SCL, SDA, GPIO1, XSHUT; last two not connected). Must face the same way as the Auriga motor connectors at placement.
+- [x] **Auriga panel module** (RGB ring + light sensors): J12 (1x7 female), J13/J14 (1x2 GND supports), level-shifted data (U7). See `AURIGA_PINMAP.md` for the geometry to reproduce at placement (module 36.1 × 50 mm, GND headers 31.75 mm apart).
+- [x] Panel KEY used as the general button (active high, divider to GPIO 14). Board buttons SW2 to SW5 removed.
+- [x] 3 RJ25 ports (low-power side) and 2 extra Qwiic connectors.
+- [x] PCB outline (65.5 × 100 mm, R2) and the three Ø 2 mm guide holes.
+- [ ] Component placement on the PCB, then `update_pcb_from_schematic` (waiting for the remaining parts).
+- [ ] Confirm the OLED module pinout (J11 is an assumed order).
+- [ ] LCSC references for the new parts (connectors, U7, R37 to R39, C12).
+- [ ] Line-follower I2C module (home-made, Adafruit ATtiny1616 with seesaw, address 0x49) on a Qwiic connector. Source: `nbourre/LyneTracker` (target ATmega2560; porting only needs the I2C pins GPIO 8/9, 3.3 V). Check pull-ups and supply at 3.3 V.
+- [ ] **Makeblock mounting holes:** nominally 8 mm pitch, M4; measure on a real beam.

@@ -1,8 +1,18 @@
 # Makeblock Auriga: pin map
 
-Reference so that the schematic (`Me Auriga Schematic.pdf`) does not need to be read again.
+Reference so that the schematic (`auriga/Me Auriga Schematic.pdf`, plus the picture `auriga/Pinout-Auriga.svg`) does not need to be read again.
 Source: manual reading of the PDF (ATmega2560, `MCU1`). Items marked **(?)** are not certain.
 Arduino names are the ones used by the Makeblock library (`D0`..`D53`, `A0`..`A15`).
+
+**Board size (measured): 65.5 × 100 mm, corner radius 2 mm.** This is the target outline for the drop-in PCB. The original has no mounting holes (it is clipped in), only guide-pin holes.
+
+**Guide-pin holes (all Ø 2 mm).** Orientation as in Pinout-Auriga.svg: portrait, USB/reset edge at the top, RJ25 ports 1-5 on the left and 6-10 on the right. Origin = top-left corner, X to the right, Y downward, board 65.5 (X) × 100 (Y) mm:
+
+| Hole | X (mm) | Y (mm) | Description |
+|---|---|---|---|
+| GH1 | 38.75 | 6 | 26.75 mm from the right edge, 6 mm from the top edge, just below the reset button |
+| GH2 | 55.5 | 83.5 | 10 mm from the right edge, 16.5 mm from the bottom, between ports 6 and 7 |
+| GH3 | 10 | 83.5 | mirror of GH2 on the left, between ports 4 and 5 |
 
 ## 1. Arduino pin → function
 
@@ -94,21 +104,34 @@ All ports: pin 1 SCL (D21), pin 2 SDA (D20). Pins 5 and 6 are S1 and S2.
 
 ## 3. Modules and connectors
 
-### RGB LED ring + light sensor board (RGB1, "RGB_SCREEN")
+### RGB LED ring + light sensor board ("Panel Module", RGB1)
 
-The module replaces PG1 / PG2 / PRGB in the BOM. Connector pinout:
+Sources: schematic (`auriga/Me Auriga Schematic.pdf`) and the module picture in `auriga/Pinout-Auriga.svg`.
 
-| Pin | Signal |
+The module has 12 RGB LEDs (WS2812-type, one data line `D44`), a POWER push button in the centre, and two round photoresistors in the top corners (labelled 1 and 2 on the picture: LIGHT SENSOR 1 → A3, LIGHT SENSOR 2 → A2). It plugs into standard 2.54 mm (100 mil) **female** headers on the Auriga: one 1×7 for the signals (PRGB) and two 1×2 for GND (PG1, PG2). The GND headers are also the mechanical support of the module.
+
+**Signal header, left to right as drawn on both the Auriga and the module** (the module faces the same way as the Auriga board in the picture, header along the top edge):
+
+| Position | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|---|---|---|---|---|---|---|---|
+| Signal | V-BAT | KEY | A2 / LIGHT2 | A3 / LIGHT1 | D44 / RGB | GND | 5 V |
+
+- `KEY` is the module's POWER button, connected to the Auriga power-latch circuit (through D5 / S2). It is not an MCU pin.
+- V-BAT is the raw battery voltage; 5 V powers the LEDs.
+- GND headers: two vertical 1×2 headers, one near each bottom corner of the module.
+
+**Module geometry (module size and GND spacing measured with a caliper; signal-header offsets measured on the SVG, about ±0.3 mm):**
+
+| Item | Value |
 |---|---|
-| 1 | 5 V |
-| 2 | GND |
-| 3 | `D44/RGB` (LED data) |
-| 4 | `A3/LIGHT1` |
-| 5 | `A2/LIGHT2` |
-| 6 | `KEY` (power-key signal, **(?)** probably not an MCU pin) |
-| 7 | V-BAT |
-| 8 to 11 | GND |
+| Module size | 36.1 × 50 mm (caliper, rounded corners), header at the top edge |
+| Signal header | 7 pins, centred horizontally on the module |
+| Left / right GND headers | 15.875 mm left / right of the centre line (31.75 mm centre to centre; caliper: 34 mm over the male plastic outside − 2.54 = 31.46, 29.2 mm inside + 2.54 = 31.74) |
+| Vertical offset, signal header → upper pin of the GND headers | about 42.5 mm |
+| Vertical offset, signal header → lower pin of the GND headers | about 45.1 mm (pitch 2.54 mm) |
+| Light sensors | top corners, about 16 mm left and right of the centre line, just above the signal header |
 
+The Auriga board holds these same female headers at a fixed position; the footprint on our PCB must reproduce the same relative positions of the 1×7 and the two 1×2.
 ### Motors (TB6612, U4)
 
 | TB6612 pin | Signal | MCU |
@@ -189,6 +212,13 @@ Each encoder signal has a 51 Ω series resistor (R36, R37, R41, R42).
 | Battery voltage | A4 | GPIO 3 (`VOL_BAT`) |
 | IMU | MPU-6050 (I2C) | LSM6DS3TR-C (I2C 0x6A) |
 | Temperature | A0 | GPIO 2 (A1 net) |
-| RGB ring, light sensors | D44, A2, A3 | not yet (TODO) |
+| RGB ring | D44 | J12 pin 5 (`RGB`) ← R39 220 Ω ← U7 74AHCT1G125 (3.3 → 5 V) ← GPIO 48 |
+| Light sensors | A2 (LIGHT2), A3 (LIGHT1) | J12 pins 3 / 4 → GPIO 4 / GPIO 5 (nets `A2`, `A3`) |
+| Panel KEY button | KEY | J12 pin 2 → R38 15k + R37 10k divider → GPIO 14 (active high, ties to V-BAT) |
+| Panel V-BAT / 5 V / GND | | J12 pins 1 / 7 / 6; J13, J14 = GND supports |
+| RJ25 port A (low-power side) | | J5: SCL, SDA, GND, 5 V, S1 = GPIO 1, S2 = GPIO 15 |
+| RJ25 port B | | J6: S1 = GPIO 43, S2 = GPIO 44 (UART0 pins) |
+| RJ25 port C | | J7: S1 = D9 (GPIO 38), S2 = D10 (GPIO 10), shared with SPI header J3 |
 | Microphone | A1 | not on the board |
-| RJ25 ports | | not on the board (2.54 mm headers + Qwiic) |
+
+RJ25 I2C pins are 3.3 V logic on the new board (5 V on the Auriga). The panel connector J12 is a female 1x7 header and J13 / J14 are female 1x2 headers.

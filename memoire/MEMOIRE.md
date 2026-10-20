@@ -9,7 +9,7 @@ Détails historiques : voir `checkpoints/` (001 à 005). Documentation technique
 - Pièces préférées : SMD, catalogue Basic de JLCPCB/LCSC.
 
 ## Décisions de conception
-- Carte : ESP32-S3-DevKitC-1-N16R8 (U5), alimentée par sa broche 5V via U1 (LM2940). Le TB6612FNG (U3) remplace le SN754410.
+- Carte : ESP32-S3-DevKitC-1-N16R8 (U5), alimentée par sa broche 5V via le rail +5V du buck U1 (TPS54331, 3 A, remplace le LM2940 depuis le 2026-10-19) et la diode D11. Le TB6612FNG (U3) remplace le SN754410.
 - Boutons de la carte supprimés (SW2 à SW5, R3 à R6), sauf RESET (SW1). Capteurs de ligne, potentiomètres et TEPT4400 supprimés.
 - Bouton général = broche KEY du module panneau Auriga. **Mesuré : le bouton relie KEY au V-BAT (actif haut).** Diviseur R38 15k (série) / R37 10k (vers GND) vers GPIO14, entrée sans pull-up interne.
 - Anneau RGB : GPIO48 → U7 (74AHCT1G125, 3,3 V → 5 V) → R39 220 Ω → J12.5.

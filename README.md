@@ -41,8 +41,8 @@ Carrier board for the ESP32-S3-DevKitC-1-N16R8 (U5, two 22-pin headers, 22.86 mm
 
 ### Power
 - Battery input on **CON1** (screw terminal), 7.2 V NiMH RC pack.
-- Protection: fuse F1 (3.5 A), SS54 diode D8, SMAJ13A TVS D9, 470 µF bulk capacitor C8.
-- **U1 (LM2940-5.0)** makes the +5 V rail. The DevKitC-1 has no VIN pin, so it is powered through its 5V pin. U1 is therefore **required**.
+- Protection: the battery (net `VBAT`, SMAJ13A TVS D9) splits into two fused branches, as on the Auriga. **Motor branch:** fuse F1 (3.5 A), SS54 diode D8, 470 µF bulk capacitor C8, net `VCC` (TB6612 VM, battery sense, panel V-BAT). **Logic branch:** fuse F2 (3 A, C182445), SS34 diode D13, then the buck U1. A motor stall that blows F1 therefore leaves the logic and servos powered.
+- **U1 (TPS54331DDA, 3 A buck, LCSC C90761)** makes the +5 V rail, as on the Auriga (L1 6.8 µH, D10 SS34, 10 k / 1.91 k feedback divider, 470 µF output capacitor). D11 (SS34) isolates the buck from the +5 V rail so that USB power cannot back-feed it (the rail is about 4.7 V), and D12 (SMAJ5.0A) clamps the rail. The DevKitC-1 has no VIN pin, so it is powered through its 5V pin. U1 is therefore **required**.
 - 3.3 V comes from the DevKitC-1.
 - No on-board USB charger (external charger for the pack).
 
@@ -119,10 +119,9 @@ Buzzer, temperature sensor, IMU, battery voltage sensing, motors with encoders, 
 ---
 
 ## 4. Open items
-- **5 V supply:** the LM2940 (1 A, TO-220) is not enough for pan/tilt with two servos plus the ESP32-S3. Plan: replace it with a 5 V / 3 A buck converter, add about 470 µF near the servo headers, use 5 V servos, and generate the servo signals with LEDC.
+- **5 V supply:** done. The LM2940 was replaced by a TPS54331 3 A buck, and C7 (470 µF) sits near the servo headers. Use 5 V micro servos (9 g) and generate the servo signals with LEDC. The buck has its own fuse F2 and reverse diode D13, separate from the motor fuse F1. Still open: 1 A fuses per motor output, as on the Auriga.
 - Update the PCB from the schematic once the board dimensions are known. The DevKitC-1 footprint outline is approximate (pad envelope only).
 - Missing LCSC references: F1, D8, D9, C8 (470 µF probably not stocked), R31 to R36, C9 to C11, M1/M2. The 5.62 kΩ and 1.37 kΩ resistors are Extended only.
-- Possible back-feed of the LM2940 output when USB and battery are connected at the same time (not checked).
 - CON1 motor pins 3 to 6 duplicate M1/M2. Decide whether to keep them.
 - Optional additions to match the Auriga: RGB LED ring on GPIO 48, power switch.
 - The title block comment 3 still says "for Arduino Nano ESP32".

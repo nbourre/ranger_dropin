@@ -150,6 +150,8 @@ Motor supply: VM = V-M (battery after F02 / D06). Logic VCC = 5 V.
 
 ### Motor headers M1 / M2 (MHDR1X6)
 
+Photos in `auriga/photos/` show that these are white polarised **JST PH 6-pin side-entry connectors (2.0 mm pitch)** on the top face of the board, opening towards the bottom edge, with the motor plug latched on. All the Auriga connectors (RJ25, DC jack, JST, panel module headers) are on the top face. The new board uses `JST_PH_S6B-PH-K` for M1 / M2.
+
 | Pin | Signal |
 |---|---|
 | 6 | Motor + |

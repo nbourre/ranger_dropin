@@ -4,7 +4,7 @@ Goal: replace the Arduino-based **Makeblock Auriga** controller of an mBot Range
 
 Project files: KiCad 10 (`Beaper-Esp32s3.kicad_sch`, `Beaper-Esp32s3.kicad_pcb`), custom footprint library `BEAPER-Nano.pretty`, custom symbol library `ESP32S3.kicad_sym`. Reference: `auriga/Me Auriga Schematic.pdf`.
 
-> **Status:** schematic is updated (ERC: 0 errors). The PCB has the new outline (65.5 × 100 mm, R2) and the three guide holes; components are **not** placed yet (the old footprints are still on the board).
+> **Status (2026-10-22):** schematic and PCB are in sync (127 footprints, all on the top side so the board clips into the robot). **Placement is done; routing, ground pours and the final DRC are still to do.** See `memoire/notes-a-faire.md` for the layout, the decisions and the task list, and `memoire/MEMOIRE.md` for the working notes (Konnect MCP tips). Photos of the Auriga are in `auriga/photos/`; extra 3D models are in `3dmodels/`.
 
 ---
 
@@ -40,7 +40,7 @@ Source: `auriga/Me Auriga Schematic.pdf` (one page, read as text). Items marked 
 Carrier board for the ESP32-S3-DevKitC-1-N16R8 (U5, two 22-pin headers, 22.86 mm apart).
 
 ### Power
-- Battery input on **CON1** (screw terminal), 7.2 V NiMH RC pack.
+- Battery input on **J1** (5.5 × 2.1 mm DC barrel jack, centre = VBAT), 7.2 V NiMH RC pack. The old screw terminal CON1 was removed.
 - Protection: the battery (net `VBAT`, SMAJ13A TVS D9) splits into two fused branches, as on the Auriga. **Motor branch:** fuse F1 (3.5 A), SS54 diode D8, 470 µF bulk capacitor C8, net `VCC` (TB6612 VM, battery sense, panel V-BAT). **Logic branch:** fuse F2 (3 A, C182445), SS34 diode D13, then the buck U1. A motor stall that blows F1 therefore leaves the logic and servos powered.
 - **U1 (TPS54331DDA, 3 A buck, LCSC C90761)** makes the +5 V rail, as on the Auriga (L1 6.8 µH, D10 SS34, 10 k / 1.91 k feedback divider, 470 µF output capacitor). D11 (SS34) isolates the buck from the +5 V rail so that USB power cannot back-feed it (the rail is about 4.7 V), and D12 (SMAJ5.0A) clamps the rail. The DevKitC-1 has no VIN pin, so it is powered through its 5V pin. U1 is therefore **required**.
 - 3.3 V comes from the DevKitC-1.
@@ -48,8 +48,8 @@ Carrier board for the ESP32-S3-DevKitC-1-N16R8 (U5, two 22-pin headers, 22.86 mm
 
 ### Motors
 - **U3 TB6612FNG** (SSOP-24, LCSC C141517, Extended part). Replaces the SN754410 of the original design.
-- CON1 pins 3 to 6 carry the motor outputs.
-- **M1 and M2** (1x6 headers, same idea as the Auriga MHDR1X6): pin 6 motor+, 5 motor−, 4 GND, 3 +3V3, 2 encoder A, 1 encoder B.
+- Motor outputs are protected like on the Auriga: TB6612 output → bidirectional TVS SMAJ12CA (D14 to D17) → 120 Ω / 2 A ferrite bead (FB1 to FB4) → 1 A PTC fuse (F3 to F6) → connector.
+- **M1 and M2** are **JST PH 6-pin side-entry connectors (2.0 mm pitch, S6B-PH-K)**, as on the Auriga (see `auriga/photos/`): pin 6 motor+, 5 motor−, 4 GND, 3 +3V3, 2 encoder A, 1 encoder B. Pin 1 orientation still has to be checked on a real motor plug.
 - Encoder signals go through 51 Ω resistors (R31 to R34) to GPIO 39 to 42. Encoders are powered at **3.3 V** (the Auriga uses 5 V). To be tested with the real motors.
 - Difference from the old driver: with both inputs low, the TB6612 coasts (the SN754410 braked). Maximum supply: 13.5 V.
 
@@ -59,9 +59,9 @@ Carrier board for the ESP32-S3-DevKitC-1-N16R8 (U5, two 22-pin headers, 22.86 mm
 - Ambient light sensor (TEPT4400) removed; the Auriga's light module will be reused instead (see TODO).
 - Temperature sensor (MCP9700A, on A1), wired directly (no selection jumpers).
 - Line / floor sensors and potentiometers were **removed** to free GPIO. As on the Auriga, line-following is done by an external I2C module (home-made: Adafruit ATtiny1616 with seesaw firmware, sensors wired to the ATtiny) on the Qwiic connector (J4) or H1/H4.
-- Headers H1 to H4: analog or digital I/O at 3.3 V, or a 4-pin sonar (HC-SR04) through the bridging jumpers.
-- Headers H5 to H8: 5 V outputs through the **74HCT541** level shifter (U2), for servos or modules.
-- Qwiic / JST-SH I2C connector (J4), SPI / TFT connector (J3).
+- Headers H1 (A4 / SDA) and H4 (A5 / SCL): I2C signals at 3.3 V. The sonar headers H2/H3 were removed.
+- Headers H7 (A6 / GPIO 6) and H8 (A7 / GPIO 7): 5 V servo outputs through the **74HCT541** level shifter (U2) for the pan/tilt micro servos (H5/H6 removed). Generate the servo PWM with LEDC.
+- I2C expansion on the main 3.3 V bus: two Qwiic / JST-SH connectors (J4, J8) and three generic 4-pin headers (J9, J15, J16: GND, +3V3, SCL, SDA). SPI / TFT connector (J3).
 - Piezo buzzer (LS1), 4 status LEDs (D2 to D5), reset button (SW1).
 
 ### GPIO mapping (Arduino-style net name → ESP32-S3 GPIO)
@@ -88,8 +88,8 @@ No free GPIO is left. **45, 46, 0** are strapping pins (unused, usable with care
 - **J12** PRGB (female 1x7, left to right): V-BAT (`VCC`), KEY, A2/LIGHT2, A3/LIGHT1, RGB, GND, 5 V. **J13, J14**: female 1x2 GND supports.
 - **KEY** is active high: the module button ties KEY to V-BAT (measured with a multimeter). R38 15k / R37 10k to GND divide it to under 3.4 V on GPIO 14. Configure GPIO 14 as input with no internal pull-up.
 - **RGB ring data:** GPIO 48 → U7 74AHCT1G125 (3.3 V → 5 V buffer) → R39 220 Ω → J12.5.
-- **J5, J6, J7** RJ25 (6P6C), low-power side only: 1 SCL, 2 SDA, 3 GND, 4 +5 V, 5 S1, 6 S2. I2C is 3.3 V logic (5 V on the Auriga); a module with 5 V pull-ups may be a problem. Port C shares D9/D10 with the SPI header J3.
-- **J8, J9** extra Qwiic (JST-SH 4-pin: GND, 3V3, SDA, SCL), same as J4.
+- **J5, J6, J7** RJ25 (Amphenol 54601-906WPLF, 6P6C), low-power side only: 1 SCL, 2 SDA, 3 GND, 4 +5 V, 5 S1, 6 S2. They behave like the Auriga ports (**5 V**): the six S1/S2 signals go through BSS138 level shifters (Q3 to Q8, 10 k pull-ups R45 to R56), and the port supply is `5V_P` (buck output before D11). The RJ25 I2C bus (EXT_SCL / EXT_SDA, through Q1/Q2) has its pull-ups on 3.3 V or 5 V, selected with **JP1** (1-2 = 3.3 V, 2-3 = 5 V, Makeblock setting). Digital only (no 0–5 V analog); port B uses GPIO 43/44 (UART0); port C shares D9/D10 with the SPI header J3. The jacks have the contacts on top (the Auriga's are at the bottom): the cable just has to be twisted, the pinout is the same.
+- **J4, J8** Qwiic (JST-SH 4-pin: GND, 3V3, SDA, SCL); **J9, J15, J16** generic I2C headers.
 - **J10** VL53L1X module (Amazon board, silkscreen order): 1 VIN (3.3 V), 2 GND, 3 SCL, 4 SDA, 5 GPIO1 (not connected), 6 XSHUT (not connected). On placement it must point the same way as the Auriga motor connectors.
 - **J11** OLED I2C socket, assumed order GND, 3V3, SCL, SDA (module not yet chosen, to confirm).
 
@@ -106,9 +106,9 @@ No free GPIO is left. **45, 46, 0** are strapping pins (unused, usable with care
 
 ### On the new board but not on the Auriga
 - SPI / TFT connector (J3).
-- Qwiic / JST-SH I2C connectors (J4, J8, J9).
+- Qwiic / JST-SH I2C connectors (J4, J8) and generic I2C headers (J9, J15, J16).
 - VL53L1X module socket (J10) and OLED I2C socket (J11).
-- Headers H1 to H4 (3.3 V analog/digital or sonar) and H5 to H8 (5 V outputs).
+- I2C headers H1 / H4 (3.3 V) and servo headers H7 / H8 (5 V outputs).
 - Onboard user buttons were removed; the user button is planned on the panel module `KEY` pin (see TODO).
 - Four simple status LEDs.
 - Wi-Fi and BLE through the ESP32-S3, with native USB.
@@ -119,11 +119,12 @@ Buzzer, temperature sensor, IMU, battery voltage sensing, motors with encoders, 
 ---
 
 ## 4. Open items
-- **5 V supply:** done. The LM2940 was replaced by a TPS54331 3 A buck, and C7 (470 µF) sits near the servo headers. Use 5 V micro servos (9 g) and generate the servo signals with LEDC. The buck has its own fuse F2 and reverse diode D13, separate from the motor fuse F1. Still open: 1 A fuses per motor output, as on the Auriga.
-- Update the PCB from the schematic once the board dimensions are known. The DevKitC-1 footprint outline is approximate (pad envelope only).
-- Missing LCSC references: F1, D8, D9, C8 (470 µF probably not stocked), R31 to R36, C9 to C11, M1/M2. The 5.62 kΩ and 1.37 kΩ resistors are Extended only.
-- CON1 motor pins 3 to 6 duplicate M1/M2. Decide whether to keep them.
-- Optional additions to match the Auriga: RGB LED ring on GPIO 48, power switch.
+- **5 V supply:** done. The LM2940 was replaced by a TPS54331 3 A buck, and C7 (470 µF) sits near the servo headers. Use 5 V micro servos (9 g) and generate the servo signals with LEDC. The buck has its own fuse F2 and reverse diode D13, separate from the motor fuse F1. The motor outputs have their own TVS, ferrite and 1 A PTC fuse (done).
+- The DevKitC-1 footprint outline is approximate (pad envelope only), and it has no 3D model yet.
+- Missing LCSC references: F1, D8, D9, C8 (470 µF probably not stocked), R31 to R36, R45 to R56, C9 to C12, M1/M2 (S6B-PH-K-S), U7, RJ25, Qwiic. The 5.62 kΩ and 1.37 kΩ resistors are Extended only.
+- Routing, ground pours, silkscreen clean-up and the final DRC are not done. The motor lines are long (U3 near the top, M1/M2 at the bottom edge).
+- Missing 3D models: L1 (Bourns SRP7028A), SW1 (Alps SKRTLAE010), U5, G1. The RJ25 model is in `3dmodels/`.
+- Optional additions to match the Auriga: power switch.
 - The title block comment 3 still says "for Arduino Nano ESP32".
 - The schematic page was enlarged from B to C to make room for the IMU.
 - ERC: 0 errors, 58 warnings (library symbol mismatches, missing `Conn_01x03_Male`, `ARPS` and `UBMP4.1-rescue` libraries, same local/global label names, one U6 SDO pin type conflict). Leftover wires, orphan power symbols and floating labels were cleaned.
@@ -134,9 +135,12 @@ Buzzer, temperature sensor, IMU, battery voltage sensing, motors with encoders, 
 - [x] **Distance sensor** VL53L1X: socket J10 on the I2C bus (Amazon module, order VIN, GND, SCL, SDA, GPIO1, XSHUT; last two not connected). Must face the same way as the Auriga motor connectors at placement.
 - [x] **Auriga panel module** (RGB ring + light sensors): J12 (1x7 female), J13/J14 (1x2 GND supports), level-shifted data (U7). See `AURIGA_PINMAP.md` for the geometry to reproduce at placement (module 36.1 × 50 mm, GND headers 31.75 mm apart).
 - [x] Panel KEY used as the general button (active high, divider to GPIO 14). Board buttons SW2 to SW5 removed.
-- [x] 3 RJ25 ports (low-power side) and 2 extra Qwiic connectors.
+- [x] 3 RJ25 ports (low-power side, 5 V with level shifters), 2 Qwiic connectors and 3 generic I2C headers.
 - [x] PCB outline (65.5 × 100 mm, R2) and the three Ø 2 mm guide holes.
-- [ ] Component placement on the PCB, then `update_pcb_from_schematic` (waiting for the remaining parts).
+- [x] `update_pcb_from_schematic` and component placement (everything on the top side).
+- [ ] Routing, ground pours, silkscreen clean-up, final ERC / DRC, 3D check.
+- [ ] **Mount the DevKit (U5) on "double" female headers: 2x22 instead of 1x22 per side.** One row receives the DevKit pins, the parallel extra row (wired pin to pin, preferably on the outer side) gives access to every DevKit pin for measurements, jumper wires and other DevKit variants. Likely a custom U5 footprint with two pads per pin number. Check the width (22.86 mm + 2 × 2.54 mm on a 65.5 mm board), the neighbours (J3, J11, the H column) and the height budget under the panel module (about 8.5 mm). Do this first: it makes the next item mostly unnecessary.
+- [ ] **Breakout header for GPIO 35, 36 and 37.** These pins are reserved by the **octal PSRAM** ("R8" variants: N16R8, N8R8), whatever the flash size. They are free on variants without octal PSRAM that share the same footprint (N8R2 with quad PSRAM, N8 / N4 without PSRAM), so a 1x03 header would only be useful with one of those (to be confirmed against the Espressif module datasheet). Label it on the silkscreen ("without octal PSRAM only") and update the GPIO table if used.
 - [ ] Confirm the OLED module pinout (J11 is an assumed order).
 - [ ] LCSC references for the new parts (connectors, U7, R37 to R39, C12).
 - [ ] Line-follower I2C module (home-made, Adafruit ATtiny1616 with seesaw, address 0x49) on a Qwiic connector. Source: `nbourre/LyneTracker` (target ATmega2560; porting only needs the I2C pins GPIO 8/9, 3.3 V). Check pull-ups and supply at 3.3 V.

@@ -1,6 +1,8 @@
 # À faire / en suspens (Beaper-Esp32s3, carrier DevKitC-1)
 
-Dernière mise à jour : 2026-10-22. L'état ci-dessous correspond au PCB enregistré le 2026-10-22 à 07 h 25 (schéma enregistré le 2026-10-21). Historique détaillé : `checkpoints/` (001 à 005, Copilot) et `git log`.
+Dernière mise à jour : 2026-10-28 (soir). **L'état fait foi dans `MEMOIRE.md`, section « État (2026-10-28) »** ; les positions de la section « Disposition actuelle » ci-dessous datent du 2026-10-22 et sont en partie périmées (U5 tourné de 180° avec broche 1 à droite, J4/J8/SW1 déplacés, plus de bande de protections à la même place). Pour les positions réelles, lire la carte. Historique détaillé : `checkpoints/` (001 à 005, Copilot) et `git log`.
+
+**Prochaine session, dans l'ordre** : (1) valider dans git l'état actuel (U5 2x22, modèles 3D, outils) ; (2) régler les conflits Q7/D13 et C7/Q5 et le courtyard H1/H4/H7/H8 ; (3) **routage** (lignes moteur 1 A, I2C, 5V_P, VCC) puis **zones de masse sans cuivre sous l'antenne du DevKit (x > 104)** ; (4) ERC/DRC finaux, BOM/LCSC, modèles 3D restants ; (5) demander à l'utilisateur de mettre à jour les 19 empreintes restantes depuis la bibliothèque dans KiCad (modèles 3D décochés, sans U5).
 
 ## État du projet
 - **Schéma** : à jour (buck, fusibles séparés, protection des sorties moteur, décalage de niveau des RJ25, J1 jack DC, M1/M2 en JST PH, Qwiic J8 et 3 headers I2C J9/J15/J16). Dernier ERC complet : 0 erreur (avant les derniers ajouts, **à relancer**).

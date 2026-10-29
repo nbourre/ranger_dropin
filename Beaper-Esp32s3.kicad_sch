@@ -28415,7 +28415,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BEAPER-Nano:ESP32-S3-DevKitC-1"
+		(property "Footprint" "BEAPER-Nano:ESP32-S3-DevKitC-1-2x22"
 			(at 60.96 27.94 0)
 			(hide yes)
 			(show_name no)

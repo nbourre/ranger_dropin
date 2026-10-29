@@ -1,0 +1,16 @@
+#VRML V2.0 utf8
+# Modele approximatif genere par tools/make_block_models.py
+Transform {
+  translation 0.0000 0.1358 0.3937
+  children Shape {
+    appearance Appearance { material Material { diffuseColor 0.100 0.100 0.110 specularColor 0.4 0.4 0.4 shininess 0.3 } }
+    geometry Box { size 1.7717 1.3346 0.7874 }
+  }
+}
+Transform {
+  translation 0.0000 0.1358 0.8071
+  children Shape {
+    appearance Appearance { material Material { diffuseColor 0.780 0.780 0.800 specularColor 0.4 0.4 0.4 shininess 0.3 } }
+    geometry Box { size 1.4173 1.0236 0.0394 }
+  }
+}

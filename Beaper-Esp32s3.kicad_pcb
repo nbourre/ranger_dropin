@@ -699,6 +699,7 @@
 		)
 	)
 	(footprint "Button_Switch_SMD:SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLAE010"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "04ad652e-1ed7-4f41-8586-b3f55e4167ce")
 		(at 95.75 32.6 180)
@@ -1428,6 +1429,7 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "07a0c94a-a779-4792-8e11-4eacb2a25112")
 		(at 105.44 75.6 90)
@@ -2470,6 +2472,7 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "100286d8-d0bf-4e2d-b973-45a8e5fddcd5")
 		(at 105.44 68.4 90)
@@ -4013,6 +4016,7 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "20d9da9b-0a79-4cd5-88a1-37d147692378")
 		(at 108.17 59.1 90)
@@ -4258,6 +4262,7 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "23612420-d487-464e-a4a2-91e620afa8a2")
 		(at 108.17 55.6 90)
@@ -4503,6 +4508,7 @@
 		)
 	)
 	(footprint "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "23c43e25-9c87-41ed-9706-dd973a23f3a4")
 		(at 67.25 33.6 180)
@@ -5094,6 +5100,7 @@
 		)
 	)
 	(footprint "Connector_JST:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "263220ce-75ed-4bfd-9500-3ccc6b348e01")
 		(at 70.25 123.4)
@@ -5714,6 +5721,7 @@
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "2f66ce73-d4fa-4e96-b837-2a9c1852bb8b")
 		(at 52.25 71.1)
@@ -8413,6 +8421,7 @@
 		)
 	)
 	(footprint "BEAPER-Nano:ESP32-S3-DevKitC-1-2x22"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "43f6515a-51b4-4933-ae0d-ae1a4dc2c074")
 		(at 113.87 84.42 -90)
@@ -9515,6 +9524,7 @@
 		)
 	)
 	(footprint "Connector_JST:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "4434a3d0-0112-468c-9cb9-5f139c26811c")
 		(at 85.25 123.4)
@@ -10445,6 +10455,7 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "4690d68f-47d0-47bf-b3c2-91b25dd0faa7")
 		(at 108.17 52.1 90)
@@ -10690,6 +10701,7 @@
 		)
 	)
 	(footprint "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "4b3b8b45-27ef-4a40-a3d1-367a1119c930")
 		(at 53.25 85.6 -90)
@@ -18380,6 +18392,7 @@
 		)
 	)
 	(footprint "Connector_BarrelJack:BarrelJack_Horizontal"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "8de86379-e01c-42b6-80d6-93b70d4c7f8d")
 		(at 57.75 41.1 -90)
@@ -24467,6 +24480,7 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "c60bcc55-78e3-4397-9957-ffc7231618db")
 		(at 105.44 72 90)
@@ -26864,6 +26878,7 @@
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "dedb6dba-6c19-4801-9bd5-10a012797df4")
 		(at 52.25 47.1)
@@ -30336,6 +30351,7 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "fc6f6fef-50db-4223-9ac1-85b3c7393e1b")
 		(at 108.17 62.6 90)
@@ -31714,6 +31730,7 @@
 	)
 	(group ""
 		(uuid "571c831e-14f8-4ffd-a955-83ae5fc3fc4d")
+		(locked yes)
 		(members "20d9da9b-0a79-4cd5-88a1-37d147692378" "23612420-d487-464e-a4a2-91e620afa8a2"
 			"4690d68f-47d0-47bf-b3c2-91b25dd0faa7" "fc6f6fef-50db-4223-9ac1-85b3c7393e1b"
 		)
@@ -31727,6 +31744,7 @@
 	)
 	(group ""
 		(uuid "9084ff03-9c73-44e0-8965-84d72d1d3b1c")
+		(locked yes)
 		(members "07a0c94a-a779-4792-8e11-4eacb2a25112" "100286d8-d0bf-4e2d-b973-45a8e5fddcd5"
 			"c60bcc55-78e3-4397-9957-ffc7231618db"
 		)

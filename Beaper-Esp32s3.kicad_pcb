@@ -205,6 +205,12 @@
 		(path "/00000000-0000-0000-0000-00005f176df6")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -316,6 +322,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pinfunction "K_1")
+			(pintype "passive")
 			(uuid "525f331c-cd12-49b0-819d-8d9f6add5fc3")
 		)
 		(pad "2" smd roundrect
@@ -324,6 +332,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(D3-A)")
+			(pinfunction "A_2")
+			(pintype "passive")
 			(uuid "7db21439-a61a-4337-86e2-e402134c97d1")
 		)
 		(embedded_fonts no)
@@ -409,6 +419,12 @@
 		(path "/00000000-0000-0000-0000-00005f175b92")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -520,6 +536,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pinfunction "K_1")
+			(pintype "passive")
 			(uuid "e3941d9f-f6f6-4552-89bc-cced39edb828")
 		)
 		(pad "2" smd roundrect
@@ -528,6 +546,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(D2-A)")
+			(pinfunction "A_2")
+			(pintype "passive")
 			(uuid "bc341251-6186-426c-a167-43070212b833")
 		)
 		(embedded_fonts no)
@@ -613,6 +633,12 @@
 		(path "/00000000-0000-0000-0000-00005f180d6f")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -675,6 +701,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/D4")
+			(pintype "passive")
 			(uuid "2f63b123-b794-4819-aae4-fee1f22730ae")
 		)
 		(pad "2" smd roundrect
@@ -683,6 +710,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(D2-A)")
+			(pintype "passive")
 			(uuid "f2577c8c-c842-45bc-862d-f8c974769731")
 		)
 		(embedded_fonts no)
@@ -768,6 +796,12 @@
 		(path "/00000000-0000-0000-0000-00005f177a61")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.4 -1.5)
@@ -1175,6 +1209,12 @@
 		(path "/c6b630de-9bed-4e4f-9f5c-3741d00baa37")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1237,6 +1277,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "Net-(D13-K)")
+			(pintype "passive")
 			(uuid "be85ca09-66e4-46f2-ba10-f106708209fc")
 		)
 		(pad "2" smd roundrect
@@ -1245,6 +1286,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "GND")
+			(pintype "passive")
 			(uuid "5da7e919-c671-4cb6-bc68-c16112c25fce")
 		)
 		(embedded_fonts no)
@@ -1343,6 +1385,12 @@
 		(path "/02e2c4b5-2f10-4f96-b301-ec5772803d18")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1405,6 +1453,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "Net-(F4-Pad1)")
+			(pintype "passive")
 			(uuid "8f7e8e32-c4c8-41dc-bc62-438932647f08")
 		)
 		(pad "2" smd roundrect
@@ -1413,6 +1462,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "/M1B")
+			(pintype "passive")
 			(uuid "c3f7f477-7495-49aa-81f8-764e44d5a8e3")
 		)
 		(embedded_fonts no)
@@ -1499,6 +1549,12 @@
 		(path "/0c6f3e62-cd8e-4b5c-82a7-077be97c09a0")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1641,6 +1697,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
 			(uuid "5f213aaf-33f9-4883-8b8a-781f5469bf00")
 		)
 		(pad "2" thru_hole circle
@@ -1650,6 +1708,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+3V3")
+			(pinfunction "Pin_2_2")
+			(pintype "passive")
 			(uuid "42e19168-a590-4dd0-a9b6-620c1a6c4b8c")
 		)
 		(pad "3" thru_hole circle
@@ -1659,6 +1719,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/A5{slash}SCL")
+			(pinfunction "Pin_3_3")
+			(pintype "passive")
 			(uuid "5d2f507c-9267-4ffd-b746-83d2476b2c9b")
 		)
 		(pad "4" thru_hole circle
@@ -1668,6 +1730,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/A4{slash}SDA")
+			(pinfunction "Pin_4_4")
+			(pintype "passive")
 			(uuid "a6be76cf-6309-49ca-a097-34bc542046ae")
 		)
 		(embedded_fonts no)
@@ -1753,6 +1817,12 @@
 		(path "/169c8725-c8aa-4082-92b1-cd57f4d235ef")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1815,6 +1885,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/PA_S1")
+			(pintype "passive")
 			(uuid "713a3313-a4dc-4dfa-8cc7-27afa603ba4e")
 		)
 		(pad "2" smd roundrect
@@ -1823,6 +1894,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3")
+			(pintype "passive")
 			(uuid "15eb4d62-8940-47be-b803-aebfaa2627f1")
 		)
 		(embedded_fonts no)
@@ -1908,6 +1980,12 @@
 		(path "/b662ebfa-5033-4114-b517-721eb2c528a7")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1970,6 +2048,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/ENC1B_H")
+			(pintype "passive")
 			(uuid "352f60eb-aae8-4086-9d57-b3dec8424910")
 		)
 		(pad "2" smd roundrect
@@ -1978,6 +2057,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/ENC1B")
+			(pintype "passive")
 			(uuid "917c8073-0e58-4518-919a-f428a34d5b9c")
 		)
 		(embedded_fonts no)
@@ -2076,6 +2156,12 @@
 		(path "/ee50eb25-428e-4ba2-98d7-591c1b3f1ecf")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2138,6 +2224,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/M1B_D")
+			(pintype "passive")
 			(uuid "b5bc4a89-cc96-4d18-9ff3-595d86eb6196")
 		)
 		(pad "2" smd roundrect
@@ -2146,6 +2233,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(F4-Pad1)")
+			(pintype "passive")
 			(uuid "154d6a98-d5d5-46ce-9b92-66e873e47693")
 		)
 		(embedded_fonts no)
@@ -2231,6 +2319,12 @@
 		(path "/00000000-0000-0000-0000-00005f1785e6")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2293,6 +2387,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(R1-Pad1)")
+			(pintype "passive")
 			(uuid "4d1f0a50-ac32-43fe-9e1d-b89b88f1972d")
 		)
 		(pad "2" smd roundrect
@@ -2301,6 +2396,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/~{RST}")
+			(pintype "passive")
 			(uuid "5cfac943-91a7-45fe-98a2-4c9343424f74")
 		)
 		(embedded_fonts no)
@@ -2386,6 +2482,12 @@
 		(path "/a392ad8f-c96c-460e-8eac-4d63b631fe9f")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2448,6 +2550,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/5V_P")
+			(pintype "passive")
 			(uuid "82868506-973f-4ec5-ae54-cfad613c8658")
 		)
 		(pad "2" smd roundrect
@@ -2456,6 +2559,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/PA_S2_5V")
+			(pintype "passive")
 			(uuid "335c4475-3926-4166-88d6-7ca5b85fc595")
 		)
 		(embedded_fonts no)
@@ -2542,6 +2646,12 @@
 		(path "/83729f51-9c53-4c5d-becb-93dccf36e4dc")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2684,6 +2794,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
 			(uuid "6f010146-328f-4ff6-b45a-7c6c537b7f67")
 		)
 		(pad "2" thru_hole circle
@@ -2693,6 +2805,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+3V3")
+			(pinfunction "Pin_2_2")
+			(pintype "passive")
 			(uuid "4aa79169-213f-4a93-8ae3-1d8f2b30d8cd")
 		)
 		(pad "3" thru_hole circle
@@ -2702,6 +2816,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/A5{slash}SCL")
+			(pinfunction "Pin_3_3")
+			(pintype "passive")
 			(uuid "ea12df35-259a-41be-bb81-746f3e183884")
 		)
 		(pad "4" thru_hole circle
@@ -2711,6 +2827,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/A4{slash}SDA")
+			(pinfunction "Pin_4_4")
+			(pintype "passive")
 			(uuid "f5d4fe49-3301-4f33-af26-f8ea0a917116")
 		)
 		(embedded_fonts no)
@@ -2809,6 +2927,14 @@
 		(path "/d9df8bd8-79e0-4851-9c32-92cb879f8b08")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "19" "23" "15" "21" "22" "17" "16" "20" "18" "24" "3" "4" "13"
+					"14" "9" "10" "1" "2" "5" "6" "11" "12" "7" "8"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3033,6 +3159,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/M1A_D")
+			(pinfunction "AO1_1")
+			(pintype "output")
 			(uuid "86dc68d9-98ac-4970-9acd-43ed1c3361fb")
 		)
 		(pad "2" smd roundrect
@@ -3041,6 +3169,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/M1A_D")
+			(pinfunction "AO1_2")
+			(pintype "passive")
 			(uuid "63fa3dc4-754b-481e-a2f3-deef91099a75")
 		)
 		(pad "3" smd roundrect
@@ -3049,6 +3179,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pinfunction "PGND1_3")
+			(pintype "power_in")
 			(uuid "38fec053-2d6a-4f82-8b3c-d64ddf347a0a")
 		)
 		(pad "4" smd roundrect
@@ -3057,6 +3189,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pinfunction "PGND1_4")
+			(pintype "passive")
 			(uuid "53418a13-7a1f-4b2d-9c2a-3a802b12811e")
 		)
 		(pad "5" smd roundrect
@@ -3065,6 +3199,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/M1B_D")
+			(pinfunction "AO2_5")
+			(pintype "output")
 			(uuid "6a9fe16e-ea5f-44e4-8629-5ba4880a8fc5")
 		)
 		(pad "6" smd roundrect
@@ -3073,6 +3209,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/M1B_D")
+			(pinfunction "AO2_6")
+			(pintype "passive")
 			(uuid "7d9ba28e-1433-4638-a80d-a2069a0f7171")
 		)
 		(pad "7" smd roundrect
@@ -3081,6 +3219,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/M2B_D")
+			(pinfunction "BO2_7")
+			(pintype "output")
 			(uuid "4376f7af-0e36-4830-8fe4-47c1c1e2e428")
 		)
 		(pad "8" smd roundrect
@@ -3089,6 +3229,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/M2B_D")
+			(pinfunction "BO2_8")
+			(pintype "passive")
 			(uuid "e0b74211-445e-45fa-883b-74ef4db01c96")
 		)
 		(pad "9" smd roundrect
@@ -3097,6 +3239,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pinfunction "PGND2_9")
+			(pintype "power_in")
 			(uuid "c288164d-57be-4f8e-8d3d-f3848804e1c7")
 		)
 		(pad "10" smd roundrect
@@ -3105,6 +3249,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pinfunction "PGND2_10")
+			(pintype "passive")
 			(uuid "62d8e9e0-be69-4965-ae0b-046a6b5d21d1")
 		)
 		(pad "11" smd roundrect
@@ -3113,6 +3259,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/M2A_D")
+			(pinfunction "BO1_11")
+			(pintype "output")
 			(uuid "bef59515-6e2e-4f5b-9065-2044a12b1877")
 		)
 		(pad "12" smd roundrect
@@ -3121,6 +3269,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/M2A_D")
+			(pinfunction "BO1_12")
+			(pintype "passive")
 			(uuid "7e4e4786-e7db-401b-8f4b-df198cea2a41")
 		)
 		(pad "13" smd roundrect
@@ -3129,6 +3279,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "VCC")
+			(pinfunction "VM2_13")
+			(pintype "power_in")
 			(uuid "977f0c5b-9dcd-4725-acf7-4ded114ccf87")
 		)
 		(pad "14" smd roundrect
@@ -3137,6 +3289,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "VCC")
+			(pinfunction "VM3_14")
+			(pintype "power_in")
 			(uuid "81510d55-b6d1-4ea3-8996-892cadd3b327")
 		)
 		(pad "15" smd roundrect
@@ -3145,6 +3299,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+5V")
+			(pinfunction "PWMB_15")
+			(pintype "input")
 			(uuid "4dc43939-b914-4665-b344-550f9ec9f4ff")
 		)
 		(pad "16" smd roundrect
@@ -3153,6 +3309,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/M2_IN2")
+			(pinfunction "BIN2_16")
+			(pintype "input")
 			(uuid "dd2a29cc-df8e-4a92-be77-c7e76073b238")
 		)
 		(pad "17" smd roundrect
@@ -3161,6 +3319,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/M2_IN1")
+			(pinfunction "BIN1_17")
+			(pintype "input")
 			(uuid "93132590-0c35-4ea4-ad4d-e25844c60e22")
 		)
 		(pad "18" smd roundrect
@@ -3169,6 +3329,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pinfunction "GND_18")
+			(pintype "power_in")
 			(uuid "87b78774-137a-4710-b407-74d3e59dbe90")
 		)
 		(pad "19" smd roundrect
@@ -3177,6 +3339,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/MOTOR_STBY")
+			(pinfunction "STBY_19")
+			(pintype "input")
 			(uuid "e589a09d-2003-4c96-baae-64d7c8793075")
 		)
 		(pad "20" smd roundrect
@@ -3185,6 +3349,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+5V")
+			(pinfunction "VCC_20")
+			(pintype "power_in")
 			(uuid "2f924ed9-431e-4562-ad82-72250e0cd372")
 		)
 		(pad "21" smd roundrect
@@ -3193,6 +3359,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/M1_IN1")
+			(pinfunction "AIN1_21")
+			(pintype "input")
 			(uuid "00711682-7d06-4f3a-aede-d9345e4c9167")
 		)
 		(pad "22" smd roundrect
@@ -3201,6 +3369,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/M1_IN2")
+			(pinfunction "AIN2_22")
+			(pintype "input")
 			(uuid "aee7da72-c42e-469d-8963-35b9edafed8e")
 		)
 		(pad "23" smd roundrect
@@ -3209,6 +3379,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+5V")
+			(pinfunction "PWMA_23")
+			(pintype "input")
 			(uuid "2371a6cc-9525-4276-bac3-d4a398f18ec8")
 		)
 		(pad "24" smd roundrect
@@ -3217,6 +3389,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "VCC")
+			(pinfunction "VM1_24")
+			(pintype "power_in")
 			(uuid "fe2d623b-46c7-4d31-860d-8531a52ea6f6")
 		)
 		(embedded_fonts no)
@@ -3930,6 +4104,12 @@
 		(path "/4fea143d-859f-49e5-be10-e916f05105b1")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3992,6 +4172,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+5V")
+			(pintype "passive")
 			(uuid "faa108b5-5164-4011-9022-d325778d7b40")
 		)
 		(pad "2" smd roundrect
@@ -4000,6 +4181,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/MOTOR_STBY")
+			(pintype "passive")
 			(uuid "90fe6fef-0278-4ae5-b508-83d4d0067ed4")
 		)
 		(embedded_fonts no)
@@ -4086,6 +4268,12 @@
 		(path "/00000000-0000-0000-0000-00005f17268c")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4228,6 +4416,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(H4-Pin_1)")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
 			(uuid "044939cb-805d-47f6-9014-01754598b75f")
 		)
 		(pad "2" thru_hole circle
@@ -4237,6 +4427,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+3V3")
+			(pinfunction "Pin_2_2")
+			(pintype "passive")
 			(uuid "7a8bcf58-21f1-4be4-ad1b-6b81808f924f")
 		)
 		(pad "3" thru_hole circle
@@ -4246,6 +4438,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
+			(pinfunction "Pin_3_3")
+			(pintype "passive")
 			(uuid "aaac3725-e33d-4554-bf05-d1c4b7e8eeee")
 		)
 		(embedded_fonts no)
@@ -4332,6 +4526,12 @@
 		(path "/e7f2a79e-68d3-4c62-a956-dcd70c436247")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4474,6 +4674,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(H8-Pin_1)")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
 			(uuid "5a2ca809-8f06-494b-bb89-de2d4cfa6065")
 		)
 		(pad "2" thru_hole circle
@@ -4483,6 +4685,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
+			(pinfunction "Pin_2_2")
+			(pintype "passive")
 			(uuid "c779e603-4821-42d8-8236-28a87fc8a508")
 		)
 		(pad "3" thru_hole circle
@@ -4492,6 +4696,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
+			(pinfunction "Pin_3_3")
+			(pintype "passive")
 			(uuid "c46d7ef1-4979-4e21-84f3-f6efb365ee84")
 		)
 		(embedded_fonts no)
@@ -4578,6 +4784,12 @@
 		(path "/3e1c88e6-c07f-4594-8e39-74ea3136c640")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4878,6 +5090,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
 			(uuid "3d544864-e927-4293-98e9-325badb08f81")
 		)
 		(pad "2" smd roundrect
@@ -4886,6 +5100,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3")
+			(pinfunction "Pin_2_2")
+			(pintype "passive")
 			(uuid "89ff1463-47d1-4525-9a72-a8b6ebb4af56")
 		)
 		(pad "3" smd roundrect
@@ -4894,6 +5110,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/A4{slash}SDA")
+			(pinfunction "Pin_3_3")
+			(pintype "passive")
 			(uuid "9132a5e0-b408-4a09-8e21-49b49fcbf9f0")
 		)
 		(pad "4" smd roundrect
@@ -4902,6 +5120,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/A5{slash}SCL")
+			(pinfunction "Pin_4_4")
+			(pintype "passive")
 			(uuid "93a5b0b8-8a19-4acb-925a-9504e160aecf")
 		)
 		(pad "MP" smd roundrect
@@ -5014,6 +5234,12 @@
 		(path "/3cda78bb-37ff-4f57-b200-70cda8880da4")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5076,6 +5302,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/5V_P")
+			(pintype "passive")
 			(uuid "75869350-33e8-4cec-a20c-7bfdc299334b")
 		)
 		(pad "2" smd roundrect
@@ -5084,6 +5311,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pintype "passive")
 			(uuid "ad69e0ed-798a-49f4-b89a-39c69f1c73e1")
 		)
 		(embedded_fonts no)
@@ -5170,6 +5398,12 @@
 		(path "/bbf1d37c-90d1-42d9-a325-bcd6ef00acbe")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5505,6 +5739,8 @@
 			(remove_unused_layers no)
 			(roundrect_rratio 0.208333)
 			(net "/ENC1B_H")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
 			(uuid "cd70be73-8840-4db7-917e-51f088ea22f5")
 		)
 		(pad "2" thru_hole oval
@@ -5514,6 +5750,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/ENC1A_H")
+			(pinfunction "Pin_2_2")
+			(pintype "passive")
 			(uuid "db565e16-fa09-4245-93fd-4dc6f475223e")
 		)
 		(pad "3" thru_hole oval
@@ -5523,6 +5761,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+3V3")
+			(pinfunction "Pin_3_3")
+			(pintype "passive")
 			(uuid "a4c67947-adca-4404-9203-983d0372d9f3")
 		)
 		(pad "4" thru_hole oval
@@ -5532,6 +5772,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
+			(pinfunction "Pin_4_4")
+			(pintype "passive")
 			(uuid "214af351-a100-43e7-9051-8ffb87efec08")
 		)
 		(pad "5" thru_hole oval
@@ -5541,6 +5783,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/M1B")
+			(pinfunction "Pin_5_5")
+			(pintype "passive")
 			(uuid "fbad5c1a-66d7-44d8-97d4-d92acbbfb22e")
 		)
 		(pad "6" thru_hole oval
@@ -5550,6 +5794,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/M1A")
+			(pinfunction "Pin_6_6")
+			(pintype "passive")
 			(uuid "db8d8ce3-7097-4a03-a33c-b7dd3274c89f")
 		)
 		(embedded_fonts no)
@@ -5635,6 +5881,12 @@
 		(path "/00000000-0000-0000-0000-00005f181801")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5697,6 +5949,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/D7")
+			(pintype "passive")
 			(uuid "5831129d-fbc2-437c-bbb6-abd7e6a2df23")
 		)
 		(pad "2" smd roundrect
@@ -5705,6 +5958,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(D5-A)")
+			(pintype "passive")
 			(uuid "7420468b-ae2c-44c1-add2-3e06c9e37139")
 		)
 		(embedded_fonts no)
@@ -5791,6 +6045,12 @@
 		(path "/8cb3c0cf-b117-4af3-91bf-d66acf10bd0f")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5962,6 +6222,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
 			(uuid "5f864daf-bae8-49da-b71a-a5bd89950dda")
 		)
 		(pad "2" thru_hole circle
@@ -5971,6 +6233,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+3V3")
+			(pinfunction "Pin_2_2")
+			(pintype "passive")
 			(uuid "e6ab34e6-e534-4dc7-8008-03c42d0b452b")
 		)
 		(pad "3" thru_hole circle
@@ -5980,6 +6244,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/A5{slash}SCL")
+			(pinfunction "Pin_3_3")
+			(pintype "passive")
 			(uuid "b9747eeb-411b-4146-a547-435390239190")
 		)
 		(pad "4" thru_hole circle
@@ -5989,6 +6255,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/A4{slash}SDA")
+			(pinfunction "Pin_4_4")
+			(pintype "passive")
 			(uuid "a9744a53-95f3-470d-829e-7c12871fdfb5")
 		)
 		(embedded_fonts no)
@@ -6074,6 +6342,12 @@
 		(path "/879dc753-0dde-44f7-9cdb-fc4725b4bbc0")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6136,6 +6410,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/VOL_BAT")
+			(pintype "passive")
 			(uuid "1d0d76bc-2689-4465-bad2-dd07129ca86d")
 		)
 		(pad "2" smd roundrect
@@ -6144,6 +6419,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pintype "passive")
 			(uuid "59c7a29b-a821-4533-8a29-61117b9b2a29")
 		)
 		(embedded_fonts no)
@@ -6229,6 +6505,12 @@
 		(path "/f314a3b1-3ad5-4e51-92b6-5722afff71dd")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6291,6 +6573,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "Net-(D8-A)")
+			(pintype "passive")
 			(uuid "ea771472-f576-4260-b3e8-4aa5f196b383")
 		)
 		(pad "2" smd roundrect
@@ -6299,6 +6582,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "/VBAT")
+			(pintype "passive")
 			(uuid "2d10a181-8250-4f49-a490-b204475d8400")
 		)
 		(embedded_fonts no)
@@ -6397,6 +6681,12 @@
 		(path "/b06636e7-188e-48e5-8f3a-ee8efe830422")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6459,6 +6749,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/M2B_D")
+			(pintype "passive")
 			(uuid "718323be-9a1d-4458-857f-b4d3d9cbc984")
 		)
 		(pad "2" smd roundrect
@@ -6467,6 +6758,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(F6-Pad1)")
+			(pintype "passive")
 			(uuid "a5dca99e-db31-4062-88f5-a62decb03e63")
 		)
 		(embedded_fonts no)
@@ -6565,6 +6857,12 @@
 		(path "/a4647d9f-942b-400e-a08a-83ec5b598bda")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6839,6 +7137,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3")
+			(pinfunction "G_1")
+			(pintype "input")
 			(uuid "64f40c23-a5f4-47d0-9ddd-179e2b50f98b")
 		)
 		(pad "2" smd roundrect
@@ -6847,6 +7147,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/PA_S1")
+			(pinfunction "S_2")
+			(pintype "passive")
 			(uuid "b5df8196-92f1-4644-8c1f-b984e5b721c4")
 		)
 		(pad "3" smd roundrect
@@ -6855,6 +7157,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/PA_S1_5V")
+			(pinfunction "D_3")
+			(pintype "passive")
 			(uuid "49a3d748-22c5-4048-abe9-fae76530a522")
 		)
 		(embedded_fonts no)
@@ -6941,6 +7245,12 @@
 		(path "/5189413d-0fc3-460a-81e2-57422869b13e")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7112,6 +7422,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "VCC")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
 			(uuid "7d5ae0da-91a0-4331-946e-e8fe2ccd834e")
 		)
 		(pad "2" thru_hole circle
@@ -7121,6 +7433,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/KEY")
+			(pinfunction "Pin_2_2")
+			(pintype "passive")
 			(uuid "d2784bae-ffdf-43da-a8bb-173ee141279d")
 		)
 		(pad "3" thru_hole circle
@@ -7130,6 +7444,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/A2")
+			(pinfunction "Pin_3_3")
+			(pintype "passive")
 			(uuid "d1d1e2b5-09ac-420c-9de4-121d3a551216")
 		)
 		(pad "4" thru_hole circle
@@ -7139,6 +7455,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/A3")
+			(pinfunction "Pin_4_4")
+			(pintype "passive")
 			(uuid "02ecfb55-c792-4c11-a76d-4c0f71baf7c8")
 		)
 		(pad "5" thru_hole circle
@@ -7148,6 +7466,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/RGB")
+			(pinfunction "Pin_5_5")
+			(pintype "passive")
 			(uuid "81e24096-a5f6-4b2e-8655-76d309489b07")
 		)
 		(pad "6" thru_hole circle
@@ -7157,6 +7477,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
+			(pinfunction "Pin_6_6")
+			(pintype "passive")
 			(uuid "41447060-ef87-4832-8eb3-3cd8266f8e87")
 		)
 		(pad "7" thru_hole circle
@@ -7166,6 +7488,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
+			(pinfunction "Pin_7_7")
+			(pintype "passive")
 			(uuid "2efaf969-7079-4777-b3d4-f2b6f7b251ea")
 		)
 		(embedded_fonts no)
@@ -7251,6 +7575,12 @@
 		(path "/0d0ec6d9-f36f-43b0-8602-73e32583c3ad")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7313,6 +7643,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/ENC2A_H")
+			(pintype "passive")
 			(uuid "addb79b9-88a8-4ab1-9408-d468cc692737")
 		)
 		(pad "2" smd roundrect
@@ -7321,6 +7652,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/ENC2A")
+			(pintype "passive")
 			(uuid "54c62561-298f-4e95-9696-1b632906a973")
 		)
 		(embedded_fonts no)
@@ -7406,6 +7738,12 @@
 		(path "/01efd7a0-1e50-43fe-b896-83d8379d3613")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7468,6 +7806,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(H8-Pin_1)")
+			(pintype "passive")
 			(uuid "98ab120a-d181-4c77-b28b-3e26135686c1")
 		)
 		(pad "2" smd roundrect
@@ -7476,6 +7815,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(U2-Y0)")
+			(pintype "passive")
 			(uuid "f7581e6e-43d4-4941-bc35-0a2d3b319f30")
 		)
 		(embedded_fonts no)
@@ -7561,6 +7901,12 @@
 		(path "/00000000-0000-0000-0000-00005f1773c3")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7672,6 +8018,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pinfunction "K_1")
+			(pintype "passive")
 			(uuid "66637e80-61c9-47d7-aff1-f58325352ff6")
 		)
 		(pad "2" smd roundrect
@@ -7680,6 +8028,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(D4-A)")
+			(pinfunction "A_2")
+			(pintype "passive")
 			(uuid "a81e684f-83ce-4ab1-a919-f24cdb1f0fe3")
 		)
 		(embedded_fonts no)
@@ -7765,6 +8115,12 @@
 		(path "/db6e6d83-a880-4b6b-bc27-0b9151d31f99")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7827,6 +8183,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/D9")
+			(pintype "passive")
 			(uuid "dac5255f-332e-4049-8b94-b14f65cf1d89")
 		)
 		(pad "2" smd roundrect
@@ -7835,6 +8192,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3")
+			(pintype "passive")
 			(uuid "7d21bd3b-4755-4bb4-a8fd-73a44659b437")
 		)
 		(embedded_fonts no)
@@ -7920,6 +8278,12 @@
 		(path "/e4b87123-d66c-42b1-8576-64bac04de551")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7982,6 +8346,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/KEY")
+			(pintype "passive")
 			(uuid "efb63cba-8ac8-4e36-973f-4c4cd9056939")
 		)
 		(pad "2" smd roundrect
@@ -7990,6 +8355,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/KEY_GPIO")
+			(pintype "passive")
 			(uuid "ba8ce0fd-2ee8-41c5-9656-5920bb16f739")
 		)
 		(embedded_fonts no)
@@ -8473,8 +8839,18 @@
 		(path "/c153e598-6011-4228-9510-8c41ae52de22")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "L1" "L2" "L3" "L4" "L5" "L6" "L7" "L8" "L9" "L10" "L11" "L12"
+					"L13" "L14" "L15" "L16" "L17" "L18" "L19" "L20" "L21" "L22" "R1" "R2"
+					"R3" "R4" "R5" "R6" "R7" "R8" "R9" "R10" "R11" "R12" "R13" "R14" "R15"
+					"R16" "R17" "R18" "R19" "R20" "R21" "R22"
+				)
+			)
+		)
 		(attr through_hole)
-		(duplicate_pad_numbers_are_jumpers yes)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -3.54 -1)
 			(end 26.4 54.34)
@@ -9594,6 +9970,12 @@
 		(path "/1e50c915-9850-4c7b-9c89-7215edcff727")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9929,6 +10311,8 @@
 			(remove_unused_layers no)
 			(roundrect_rratio 0.208333)
 			(net "/ENC2B_H")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
 			(uuid "bee65273-38ef-46b7-9a21-25ae37288496")
 		)
 		(pad "2" thru_hole oval
@@ -9938,6 +10322,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/ENC2A_H")
+			(pinfunction "Pin_2_2")
+			(pintype "passive")
 			(uuid "46a3b36e-b001-45ad-bc11-df159646e056")
 		)
 		(pad "3" thru_hole oval
@@ -9947,6 +10333,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+3V3")
+			(pinfunction "Pin_3_3")
+			(pintype "passive")
 			(uuid "19639c32-5e57-4827-a259-e8af83c61bdd")
 		)
 		(pad "4" thru_hole oval
@@ -9956,6 +10344,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
+			(pinfunction "Pin_4_4")
+			(pintype "passive")
 			(uuid "17018ade-9399-453a-a94d-26b158bf1a22")
 		)
 		(pad "5" thru_hole oval
@@ -9965,6 +10355,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/M2B")
+			(pinfunction "Pin_5_5")
+			(pintype "passive")
 			(uuid "4d0d4e2b-0320-4986-80b5-2549a5d6ebd5")
 		)
 		(pad "6" thru_hole oval
@@ -9974,6 +10366,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/M2A")
+			(pinfunction "Pin_6_6")
+			(pintype "passive")
 			(uuid "cea0375a-c672-4774-ad48-5a6ff03deb01")
 		)
 		(embedded_fonts no)
@@ -10059,6 +10453,12 @@
 		(path "/00000000-0000-0000-0000-00005f17b18d")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10121,6 +10521,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pintype "passive")
 			(uuid "22f52497-471a-4ec1-ab36-2ae3c28529a8")
 		)
 		(pad "2" smd roundrect
@@ -10129,6 +10530,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/D8")
+			(pintype "passive")
 			(uuid "7f8418cd-6c6e-49bc-86f0-8e0c05ce5048")
 		)
 		(embedded_fonts no)
@@ -10214,6 +10616,12 @@
 		(path "/bce3f28f-1684-482c-a39f-bf56ef3ae4f2")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10276,6 +10684,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3")
+			(pintype "passive")
 			(uuid "0c8cde29-73cb-48be-a193-f094d90547d3")
 		)
 		(pad "2" smd roundrect
@@ -10284,6 +10693,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pintype "passive")
 			(uuid "6423a466-7e32-4d7f-9a0e-a851b686a2f1")
 		)
 		(embedded_fonts no)
@@ -10369,6 +10779,12 @@
 		(path "/00000000-0000-0000-0000-00005f181a7d")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10431,6 +10847,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(H1-Pin_1)")
+			(pintype "passive")
 			(uuid "298fac50-94f0-4e7b-b28f-1920600c75e7")
 		)
 		(pad "2" smd roundrect
@@ -10439,6 +10856,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/A4{slash}SDA")
+			(pintype "passive")
 			(uuid "2da3122b-5c0d-4943-9586-9a8a87155568")
 		)
 		(embedded_fonts no)
@@ -10525,6 +10943,12 @@
 		(path "/5ecd3228-ff89-49d3-8337-47ca601592cd")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10667,6 +11091,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(H7-Pin_1)")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
 			(uuid "74be1ff3-a4f1-431c-a282-059e5fa2346d")
 		)
 		(pad "2" thru_hole circle
@@ -10676,6 +11102,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
+			(pinfunction "Pin_2_2")
+			(pintype "passive")
 			(uuid "ffee1b50-9ae1-4223-8510-dbd46d397f55")
 		)
 		(pad "3" thru_hole circle
@@ -10685,6 +11113,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
+			(pinfunction "Pin_3_3")
+			(pintype "passive")
 			(uuid "cd3a45e6-1994-46e8-9e23-19a838090ee9")
 		)
 		(embedded_fonts no)
@@ -10771,6 +11201,12 @@
 		(path "/040c98b6-915d-49e2-8f09-0271908340ea")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11071,6 +11507,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
 			(uuid "39da7a4d-832c-4068-9f71-07559df6e1de")
 		)
 		(pad "2" smd roundrect
@@ -11079,6 +11517,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3")
+			(pinfunction "Pin_2_2")
+			(pintype "passive")
 			(uuid "2f445888-e932-49ce-8053-722c51f4bec8")
 		)
 		(pad "3" smd roundrect
@@ -11087,6 +11527,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/A4{slash}SDA")
+			(pinfunction "Pin_3_3")
+			(pintype "passive")
 			(uuid "a0bc982a-b333-429d-8b4e-5706be1278b1")
 		)
 		(pad "4" smd roundrect
@@ -11095,6 +11537,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/A5{slash}SCL")
+			(pinfunction "Pin_4_4")
+			(pintype "passive")
 			(uuid "272e5690-8eed-4fb0-a8a2-f04e3da05f9b")
 		)
 		(pad "MP" smd roundrect
@@ -11207,6 +11651,12 @@
 		(path "/d9adab29-18c1-4565-9661-15668aeddca8")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11269,6 +11719,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "Net-(F5-Pad1)")
+			(pintype "passive")
 			(uuid "8186678f-b783-4f43-9d67-1dca82f0c5f2")
 		)
 		(pad "2" smd roundrect
@@ -11277,6 +11728,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "/M2A")
+			(pintype "passive")
 			(uuid "9f2ca88e-a3b9-4d5d-96a8-1f6b79117c70")
 		)
 		(embedded_fonts no)
@@ -11641,6 +12093,12 @@
 		(path "/57f00c15-f808-4eab-99ea-b62f96ac970e")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11703,6 +12161,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/RGB_BUF")
+			(pintype "passive")
 			(uuid "3af8e9da-2ffe-4ee5-9d2d-407bb0885218")
 		)
 		(pad "2" smd roundrect
@@ -11711,6 +12170,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/RGB")
+			(pintype "passive")
 			(uuid "570a9421-64a4-4822-bbc0-d144cee2b478")
 		)
 		(embedded_fonts no)
@@ -11796,6 +12256,12 @@
 		(path "/be1f6d42-4e6f-402b-819a-8613e97c6b87")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11858,6 +12324,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(H7-Pin_1)")
+			(pintype "passive")
 			(uuid "a78f33bd-a779-4064-9da6-a39ff5cc6cc6")
 		)
 		(pad "2" smd roundrect
@@ -11866,6 +12333,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(U2-Y1)")
+			(pintype "passive")
 			(uuid "128b6810-4f8b-449c-8f91-fdda1829bf30")
 		)
 		(embedded_fonts no)
@@ -11951,6 +12419,12 @@
 		(path "/118f62a2-7a72-461a-b299-60880679e9b3")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12013,6 +12487,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3")
+			(pintype "passive")
 			(uuid "99fbd6d0-9d6f-4b41-8585-fdb88110d3fd")
 		)
 		(pad "2" smd roundrect
@@ -12021,6 +12496,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pintype "passive")
 			(uuid "eb5d0886-b12d-45b8-8d87-dfd3ef0d972e")
 		)
 		(embedded_fonts no)
@@ -12106,6 +12582,12 @@
 		(path "/931a9704-a753-46ff-a2ed-ce0d597438ae")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12168,6 +12650,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+5V")
+			(pintype "passive")
 			(uuid "a883c0d6-ad6c-4716-a5ce-e366b6485fb5")
 		)
 		(pad "2" smd roundrect
@@ -12176,6 +12659,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pintype "passive")
 			(uuid "bb46eafa-760f-414e-9626-8538151f8371")
 		)
 		(embedded_fonts no)
@@ -12566,6 +13050,12 @@
 		(path "/a25fa90a-93f0-4ff1-905f-3a7b16d27a65")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12628,6 +13118,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/M2A_D")
+			(pintype "passive")
 			(uuid "8e799248-be9b-4b53-894d-03b3b5dcc01d")
 		)
 		(pad "2" smd roundrect
@@ -12636,6 +13127,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(F5-Pad1)")
+			(pintype "passive")
 			(uuid "062cb564-44a6-4116-a398-31027b7359ce")
 		)
 		(embedded_fonts no)
@@ -12734,6 +13226,12 @@
 		(path "/53062dc8-ffce-457b-8a7d-effbb2913c2d")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13008,6 +13506,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3")
+			(pinfunction "G_1")
+			(pintype "input")
 			(uuid "63e3a238-ecb2-44b3-a65e-a3191ac22bae")
 		)
 		(pad "2" smd roundrect
@@ -13016,6 +13516,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/D9")
+			(pinfunction "S_2")
+			(pintype "passive")
 			(uuid "59cf5ec8-b62e-47b2-878f-9ece433057ea")
 		)
 		(pad "3" smd roundrect
@@ -13024,6 +13526,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/PC_S1_5V")
+			(pinfunction "D_3")
+			(pintype "passive")
 			(uuid "1253e28d-b0dd-4558-a831-f867d2994732")
 		)
 		(embedded_fonts no)
@@ -13221,6 +13725,12 @@
 		(path "/a69fbed1-aaed-4f2f-aabc-81854996da9f")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13283,6 +13793,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+5V")
+			(pintype "passive")
 			(uuid "b8ac0b02-c9a8-4193-b67f-583f1e2ed86b")
 		)
 		(pad "2" smd roundrect
@@ -13291,6 +13802,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pintype "passive")
 			(uuid "75991610-536c-4dcb-a4d1-29d179c410bf")
 		)
 		(embedded_fonts no)
@@ -13376,6 +13888,12 @@
 		(path "/df4758bc-d205-46b4-9414-7603f7ff46cd")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13438,6 +13956,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/PB_S2")
+			(pintype "passive")
 			(uuid "5a6091d2-cb84-4f5f-ad1b-f255b67bcc0e")
 		)
 		(pad "2" smd roundrect
@@ -13446,6 +13965,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3")
+			(pintype "passive")
 			(uuid "ce41f599-93a7-4a78-9177-8f2fe2f3bd12")
 		)
 		(embedded_fonts no)
@@ -13544,6 +14064,12 @@
 		(path "/8ca04d34-224c-4ab5-9d96-0cc4fd675ee5")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13818,6 +14344,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3")
+			(pinfunction "G_1")
+			(pintype "input")
 			(uuid "d54be7e7-3114-412a-94a2-8508f9461b28")
 		)
 		(pad "2" smd roundrect
@@ -13826,6 +14354,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/PB_S2")
+			(pinfunction "S_2")
+			(pintype "passive")
 			(uuid "aaa5cda5-ef14-4c24-a96b-f88e47aa9291")
 		)
 		(pad "3" smd roundrect
@@ -13834,6 +14364,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/PB_S2_5V")
+			(pinfunction "D_3")
+			(pintype "passive")
 			(uuid "3e415672-5779-49c7-b3b2-af004e3f24c0")
 		)
 		(embedded_fonts no)
@@ -13919,6 +14451,12 @@
 		(path "/ec2ab1c9-463c-49df-988a-b6dd8bc8d4c0")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13981,6 +14519,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3")
+			(pintype "passive")
 			(uuid "c246bc59-397d-4aa7-9159-13df047d3b8e")
 		)
 		(pad "2" smd roundrect
@@ -13989,6 +14528,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/A4{slash}SDA")
+			(pintype "passive")
 			(uuid "943728fe-91a4-4033-99b6-aa1d542c057c")
 		)
 		(embedded_fonts no)
@@ -14074,6 +14614,12 @@
 		(path "/00000000-0000-0000-0000-00005f179773")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14185,6 +14731,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pinfunction "K_1")
+			(pintype "passive")
 			(uuid "45a45192-ef73-4b2c-bc26-ca1dbd93c9b8")
 		)
 		(pad "2" smd roundrect
@@ -14193,6 +14741,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(D1-A)")
+			(pinfunction "A_2")
+			(pintype "passive")
 			(uuid "cdfcf251-f8f3-47bb-984a-41ddcaadc723")
 		)
 		(embedded_fonts no)
@@ -14278,6 +14828,12 @@
 		(path "/00000000-0000-0000-0000-00005f18141a")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14340,6 +14896,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/D5")
+			(pintype "passive")
 			(uuid "16f942d7-035e-43c7-b083-96c827a96fde")
 		)
 		(pad "2" smd roundrect
@@ -14348,6 +14905,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(D3-A)")
+			(pintype "passive")
 			(uuid "9236886c-6840-4496-a61d-5f0091ff4a40")
 		)
 		(embedded_fonts no)
@@ -14433,6 +14991,12 @@
 		(path "/9d1bc35a-5746-4caf-9bfa-a496825875ac")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "5" "3" "1" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14707,6 +15271,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pintype "input")
 			(uuid "162d95c9-b054-4371-8bc0-23c5e1f08c46")
 		)
 		(pad "2" smd roundrect
@@ -14715,6 +15280,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/RGB_3V3")
+			(pintype "input")
 			(uuid "c277ca9e-6e0d-44eb-aeaa-b2877a1309a9")
 		)
 		(pad "3" smd roundrect
@@ -14723,6 +15289,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pinfunction "GND_3")
+			(pintype "power_in")
 			(uuid "4039b26f-9daf-4b4c-a8ed-a59c09eabfae")
 		)
 		(pad "4" smd roundrect
@@ -14731,6 +15299,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/RGB_BUF")
+			(pintype "tri_state")
 			(uuid "ec616f3e-d93b-44b7-b947-1b00baa7c246")
 		)
 		(pad "5" smd roundrect
@@ -14739,6 +15308,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+5V")
+			(pinfunction "VCC_5")
+			(pintype "power_in")
 			(uuid "4612885a-bae5-4d7c-ac1d-5961798d0f80")
 		)
 		(embedded_fonts no)
@@ -15129,6 +15700,12 @@
 		(path "/e2ad6c15-4e15-4d91-b91a-19a6cfaa25ea")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15191,6 +15768,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(C19-Pad1)")
+			(pintype "passive")
 			(uuid "975469b3-9a39-4a96-a1ec-015a2fd72e6d")
 		)
 		(pad "2" smd roundrect
@@ -15199,6 +15777,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pintype "passive")
 			(uuid "464db4dc-9572-4eb2-954c-b726be6269c4")
 		)
 		(embedded_fonts no)
@@ -15297,6 +15876,12 @@
 		(path "/aaccbf59-586a-413f-8f5d-2a7f801b2e4a")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15359,6 +15944,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "Net-(F6-Pad1)")
+			(pintype "passive")
 			(uuid "f303e48d-00af-473c-a20e-adc7ed6f152d")
 		)
 		(pad "2" smd roundrect
@@ -15367,6 +15953,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "/M2B")
+			(pintype "passive")
 			(uuid "df28784d-54f6-4986-bfbf-7531a72fe0ad")
 		)
 		(embedded_fonts no)
@@ -15465,6 +16052,12 @@
 		(path "/522a640f-bd68-48af-b369-ff3c37cfeaff")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15739,6 +16332,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3")
+			(pinfunction "V_{DD}_1")
+			(pintype "power_in")
 			(uuid "ff31a37b-dfaf-4461-b559-e6c22224bd6f")
 		)
 		(pad "2" smd roundrect
@@ -15747,6 +16342,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/A1")
+			(pinfunction "V_{OUT}_2")
+			(pintype "output")
 			(uuid "5d6e750f-75d3-4f7b-854a-7bbfee86aab5")
 		)
 		(pad "3" smd roundrect
@@ -15755,6 +16352,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pinfunction "GND_3")
+			(pintype "power_in")
 			(uuid "6fed7474-02b3-4911-8778-a6174bff9d58")
 		)
 		(embedded_fonts no)
@@ -15853,6 +16452,12 @@
 		(path "/c25e76a0-8a6b-476c-a992-2538dd620369")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "14" "13" "12" "5" "6" "7" "8" "11" "10" "4" "9")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15978,6 +16583,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pinfunction "SDO/SA0_1")
+			(pintype "bidirectional")
 			(uuid "694e85b7-1b06-4674-abc8-e004178d2b62")
 		)
 		(pad "2" smd roundrect
@@ -15986,6 +16593,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-SDX-Pad2)")
+			(pinfunction "SDX_2")
+			(pintype "bidirectional+no_connect")
 			(uuid "d8e83acd-41a6-43fa-9ca1-8554e92456b9")
 		)
 		(pad "3" smd roundrect
@@ -15994,6 +16603,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-SCX-Pad3)")
+			(pinfunction "SCX_3")
+			(pintype "input+no_connect")
 			(uuid "7af5e1af-ce23-42fe-bb3b-51958d3bc4f0")
 		)
 		(pad "4" smd roundrect
@@ -16002,6 +16613,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-INT1-Pad4)")
+			(pinfunction "INT1_4")
+			(pintype "output+no_connect")
 			(uuid "9c59ca88-70b6-4afc-8b13-62651d912561")
 		)
 		(pad "5" smd roundrect
@@ -16010,6 +16623,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3")
+			(pinfunction "VDDIO_5")
+			(pintype "power_in")
 			(uuid "877aeba7-4a2d-49b2-a40f-7a743274fc9c")
 		)
 		(pad "6" smd roundrect
@@ -16018,6 +16633,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pinfunction "GND_6")
+			(pintype "power_in")
 			(uuid "08c12623-05c1-4ce5-a233-8993995f9775")
 		)
 		(pad "7" smd roundrect
@@ -16026,6 +16643,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pinfunction "GND_7")
+			(pintype "passive")
 			(uuid "2cea7eb1-4508-44e0-abf7-93a74b12c635")
 		)
 		(pad "8" smd roundrect
@@ -16034,6 +16653,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3")
+			(pinfunction "VDD_8")
+			(pintype "power_in")
 			(uuid "592acb55-7c24-4267-9f9a-b26e8f48e23b")
 		)
 		(pad "9" smd roundrect
@@ -16042,6 +16663,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-INT2-Pad9)")
+			(pinfunction "INT2_9")
+			(pintype "output+no_connect")
 			(uuid "c366d777-2ad4-419b-986c-3b6be1cf106f")
 		)
 		(pad "10" smd roundrect
@@ -16050,6 +16673,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-NC-Pad10)")
+			(pinfunction "NC_10")
+			(pintype "no_connect")
 			(uuid "359bde21-7392-449d-bd84-045f33f9d230")
 		)
 		(pad "11" smd roundrect
@@ -16058,6 +16683,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U6-NC-Pad11)")
+			(pinfunction "NC_11")
+			(pintype "no_connect")
 			(uuid "8f5e66a1-e66d-4374-b5c3-97862192894e")
 		)
 		(pad "12" smd roundrect
@@ -16066,6 +16693,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3")
+			(pinfunction "CS_12")
+			(pintype "input")
 			(uuid "6b0fbbb9-7239-40a2-b5d5-c97e2cc490d6")
 		)
 		(pad "13" smd roundrect
@@ -16074,6 +16703,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/A5{slash}SCL")
+			(pinfunction "SCL_13")
+			(pintype "input")
 			(uuid "3611df1b-415e-43a7-8dac-5a2fad444c93")
 		)
 		(pad "14" smd roundrect
@@ -16082,6 +16713,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/A4{slash}SDA")
+			(pinfunction "SDA_14")
+			(pintype "bidirectional")
 			(uuid "25f3984a-a316-4fc6-98ac-09afce4a2d41")
 		)
 		(embedded_fonts no)
@@ -16180,6 +16813,12 @@
 		(path "/9f496eb2-087d-4f68-be69-d4fd2e3cc848")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16531,6 +17170,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15625)
 			(net "+5V")
+			(pintype "passive")
 			(uuid "88003b73-001b-4e2c-9588-b1ca2026662c")
 		)
 		(pad "2" smd roundrect
@@ -16539,6 +17179,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15625)
 			(net "GND")
+			(pintype "passive")
 			(uuid "eee15a5f-81d6-4960-b944-6bbd519291e2")
 		)
 		(embedded_fonts no)
@@ -16916,6 +17557,12 @@
 		(path "/00000000-0000-0000-0000-00005f18265f")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16978,6 +17625,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(H4-Pin_1)")
+			(pintype "passive")
 			(uuid "5f57d80d-bb8b-4e21-82eb-783e52228164")
 		)
 		(pad "2" smd roundrect
@@ -16986,6 +17634,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/A5{slash}SCL")
+			(pintype "passive")
 			(uuid "2ebf4362-b551-4459-9022-c0e3f237c059")
 		)
 		(embedded_fonts no)
@@ -17196,6 +17845,14 @@
 		(path "/9ae1bfc1-5397-479b-ba94-c10339a2e2c3")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "4" "5" "6" "7" "8" "9" "1" "19" "20" "10" "18" "17" "16"
+					"15" "14" "13" "12" "11"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17380,6 +18037,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pinfunction "G1_1")
+			(pintype "input")
 			(uuid "a89fd3e3-a3cd-4416-a3e4-4ec0049cb7a3")
 		)
 		(pad "2" smd roundrect
@@ -17388,6 +18047,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/A7")
+			(pinfunction "A0_2")
+			(pintype "input")
 			(uuid "c56b978e-c20b-4e56-84e4-285a47190a86")
 		)
 		(pad "3" smd roundrect
@@ -17396,6 +18057,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/A6")
+			(pinfunction "A1_3")
+			(pintype "input")
 			(uuid "3612d8b7-4a01-47fb-867b-04aac89865c8")
 		)
 		(pad "4" smd roundrect
@@ -17404,6 +18067,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/A5{slash}SCL")
+			(pinfunction "A2_4")
+			(pintype "input")
 			(uuid "4df2e6c2-4865-45bd-b9d1-2d48e13e5ac7")
 		)
 		(pad "5" smd roundrect
@@ -17412,6 +18077,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/A4{slash}SDA")
+			(pinfunction "A3_5")
+			(pintype "input")
 			(uuid "333a0e13-5c24-4721-bde5-9cfccf81c29f")
 		)
 		(pad "6" smd roundrect
@@ -17420,6 +18087,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/D4")
+			(pinfunction "A4_6")
+			(pintype "input")
 			(uuid "9a715aa1-dfcc-491d-b9b8-03b98dc7734f")
 		)
 		(pad "7" smd roundrect
@@ -17428,6 +18097,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/D5")
+			(pinfunction "A5_7")
+			(pintype "input")
 			(uuid "3cceeaa1-31f1-4288-a370-4e3f39d2166f")
 		)
 		(pad "8" smd roundrect
@@ -17436,6 +18107,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/D6")
+			(pinfunction "A6_8")
+			(pintype "input")
 			(uuid "3840b706-3662-4120-8ffb-7c03c95577ce")
 		)
 		(pad "9" smd roundrect
@@ -17444,6 +18117,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/D7")
+			(pinfunction "A7_9")
+			(pintype "input")
 			(uuid "0ae0f118-815d-441f-bc9a-0b4ac11ca0bf")
 		)
 		(pad "10" smd roundrect
@@ -17452,6 +18127,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pinfunction "GND_10")
+			(pintype "power_in")
 			(uuid "76cc24cf-2615-4a0c-b210-491071812b87")
 		)
 		(pad "11" smd roundrect
@@ -17460,6 +18137,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/M2_IN2")
+			(pinfunction "Y7_11")
+			(pintype "tri_state")
 			(uuid "a442d410-0749-452e-9903-db2e63b4b075")
 		)
 		(pad "12" smd roundrect
@@ -17468,6 +18147,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/M2_IN1")
+			(pinfunction "Y6_12")
+			(pintype "tri_state")
 			(uuid "7b481047-65fa-4ab3-9a99-8217c3183a4e")
 		)
 		(pad "13" smd roundrect
@@ -17476,6 +18157,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/M1_IN2")
+			(pinfunction "Y5_13")
+			(pintype "tri_state")
 			(uuid "bc8e5fb7-1c00-4413-8754-6c3f2bb9eb78")
 		)
 		(pad "14" smd roundrect
@@ -17484,6 +18167,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/M1_IN1")
+			(pinfunction "Y4_14")
+			(pintype "tri_state")
 			(uuid "6ead650d-7bce-4f73-95b1-73616d9e6ef0")
 		)
 		(pad "15" smd roundrect
@@ -17492,6 +18177,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U2-Y3-Pad15)")
+			(pinfunction "Y3_15")
+			(pintype "tri_state+no_connect")
 			(uuid "47812e45-1b2e-4690-897b-68c2e8ce7beb")
 		)
 		(pad "16" smd roundrect
@@ -17500,6 +18187,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U2-Y2-Pad16)")
+			(pinfunction "Y2_16")
+			(pintype "tri_state+no_connect")
 			(uuid "8aaba818-2a1b-4144-9109-4a94ae04b58d")
 		)
 		(pad "17" smd roundrect
@@ -17508,6 +18197,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(U2-Y1)")
+			(pinfunction "Y1_17")
+			(pintype "tri_state")
 			(uuid "aafb3020-81db-4714-b6a4-84bb66523870")
 		)
 		(pad "18" smd roundrect
@@ -17516,6 +18207,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(U2-Y0)")
+			(pinfunction "Y0_18")
+			(pintype "tri_state")
 			(uuid "07f2577a-707c-46be-ab1e-27e3219c92cd")
 		)
 		(pad "19" smd roundrect
@@ -17524,6 +18217,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pinfunction "G2_19")
+			(pintype "input")
 			(uuid "0410050a-6275-4a60-ab5c-5e8185b3ef27")
 		)
 		(pad "20" smd roundrect
@@ -17532,6 +18227,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+5V")
+			(pinfunction "VCC_20")
+			(pintype "power_in")
 			(uuid "519232a2-a97f-4d1d-8bbf-4201d789db6c")
 		)
 		(embedded_fonts no)
@@ -17617,6 +18314,12 @@
 		(path "/a8dc7a85-42bd-4a5a-8605-c49466805724")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17679,6 +18382,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pintype "passive")
 			(uuid "cb7f73d7-20e4-480d-944a-cd1cf0b32067")
 		)
 		(pad "2" smd roundrect
@@ -17687,6 +18391,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/KEY_GPIO")
+			(pintype "passive")
 			(uuid "269340a0-f52c-4f11-87d4-796f1c4fcbc2")
 		)
 		(embedded_fonts no)
@@ -17884,6 +18589,12 @@
 		(path "/4fa3d5ac-acef-4ef3-bd13-52ac12d759eb")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17946,6 +18657,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/5V_P")
+			(pintype "passive")
 			(uuid "31644e9e-b024-4647-aaaa-9ad059172cc4")
 		)
 		(pad "2" smd roundrect
@@ -17954,6 +18666,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/PA_S1_5V")
+			(pintype "passive")
 			(uuid "6b9fec3f-ac4a-4920-b0b7-7cad9a194b2b")
 		)
 		(embedded_fonts no)
@@ -18039,6 +18752,12 @@
 		(path "/f69c7b63-ff51-40ec-8ad2-bc2890c1aed2")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -3.46 -1.95)
@@ -18865,6 +19584,12 @@
 		(path "/bbb4e359-63fd-45ca-aa01-42c5ccb15af4")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19036,6 +19761,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
 			(uuid "6349bf8c-0e11-4e47-856d-4255aefaf2db")
 		)
 		(pad "2" thru_hole circle
@@ -19045,6 +19772,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
+			(pinfunction "Pin_2_2")
+			(pintype "passive")
 			(uuid "c839873a-1288-4007-9750-be629f677ded")
 		)
 		(embedded_fonts no)
@@ -19130,6 +19859,12 @@
 		(path "/00000000-0000-0000-0000-00005f1815c4")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19192,6 +19927,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/D6")
+			(pintype "passive")
 			(uuid "1ab0f71c-3558-4f80-a8ec-c7853a4a377e")
 		)
 		(pad "2" smd roundrect
@@ -19200,6 +19936,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(D4-A)")
+			(pintype "passive")
 			(uuid "4bca2fc9-bdf9-48fa-9fff-7ba2cc8b160e")
 		)
 		(embedded_fonts no)
@@ -19285,6 +20022,12 @@
 		(path "/00000000-0000-0000-0000-00005f17769e")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19396,6 +20139,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pinfunction "K_1")
+			(pintype "passive")
 			(uuid "76d1bb65-aa9c-419d-8a3c-bf5506650bc4")
 		)
 		(pad "2" smd roundrect
@@ -19404,6 +20149,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(D5-A)")
+			(pinfunction "A_2")
+			(pintype "passive")
 			(uuid "7839ffc2-7ac2-4b76-afe4-c0abacd1407b")
 		)
 		(embedded_fonts no)
@@ -19489,6 +20236,12 @@
 		(path "/12739a2a-b7ad-4b1f-95de-3691b6e023ec")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19551,6 +20304,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3")
+			(pintype "passive")
 			(uuid "a7f5eaea-f647-458f-b128-a8c62bfbc41a")
 		)
 		(pad "2" smd roundrect
@@ -19559,6 +20313,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/A5{slash}SCL")
+			(pintype "passive")
 			(uuid "05bee2cf-e380-4f81-9f64-60862a977de2")
 		)
 		(embedded_fonts no)
@@ -19644,6 +20399,12 @@
 		(path "/9d2f0bf3-6726-4a16-8857-56f9911fe5f3")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19706,6 +20467,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/5V_P")
+			(pintype "passive")
 			(uuid "12a72bfc-922f-4969-a01b-30a3d2830568")
 		)
 		(pad "2" smd roundrect
@@ -19714,6 +20476,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/PC_S2_5V")
+			(pintype "passive")
 			(uuid "ba1288c5-6b4f-449f-95ab-06e98ce81cda")
 		)
 		(embedded_fonts no)
@@ -19799,6 +20562,12 @@
 		(path "/c0bfab74-93ea-46d1-b8aa-363bc2e933e9")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19861,6 +20630,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/D10")
+			(pintype "passive")
 			(uuid "b42f5763-e298-4436-9586-61394dcab435")
 		)
 		(pad "2" smd roundrect
@@ -19869,6 +20639,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3")
+			(pintype "passive")
 			(uuid "16d8d358-5715-4f58-a504-557079916be8")
 		)
 		(embedded_fonts no)
@@ -19967,6 +20738,12 @@
 		(path "/528c3139-5ed8-41ac-a6f3-474455d53c7b")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20029,6 +20806,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/FB")
+			(pintype "passive")
 			(uuid "2cddc869-69fb-4558-ba60-95ead53f477e")
 		)
 		(pad "2" smd roundrect
@@ -20037,6 +20815,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pintype "passive")
 			(uuid "7c138c88-bc28-4d06-b660-8da022a78394")
 		)
 		(embedded_fonts no)
@@ -20135,6 +20914,12 @@
 		(path "/045f8686-3970-48cc-928a-b8bbc0d666fe")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20197,6 +20982,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(U1-COMP)")
+			(pintype "passive")
 			(uuid "3dbe1157-8241-49bd-bf4b-7b8eb1676fcf")
 		)
 		(pad "2" smd roundrect
@@ -20205,6 +20991,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pintype "passive")
 			(uuid "c8eb2190-7b0b-4ad9-9994-cd781c756610")
 		)
 		(embedded_fonts no)
@@ -20582,6 +21369,12 @@
 		(path "/51ee5b98-317f-49c5-8ad6-13dc4968f789")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20644,6 +21437,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3")
+			(pintype "passive")
 			(uuid "d4f3a4dd-bb16-4b42-8f9d-309d416547f0")
 		)
 		(pad "2" smd roundrect
@@ -20652,6 +21446,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pintype "passive")
 			(uuid "153ae1a8-129e-4b0e-a62a-d87591f616ca")
 		)
 		(embedded_fonts no)
@@ -20750,6 +21545,12 @@
 		(path "/f985da4f-55eb-4714-ac73-298935781587")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20812,6 +21613,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(U1-BOOT)")
+			(pintype "passive")
 			(uuid "bc87a030-6531-47ff-b582-13812ab8b9ef")
 		)
 		(pad "2" smd roundrect
@@ -20820,6 +21622,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(D10-K)")
+			(pintype "passive")
 			(uuid "e699f9af-b8a0-4031-9772-b2f93852cd8f")
 		)
 		(embedded_fonts no)
@@ -20905,6 +21708,12 @@
 		(path "/1b337fd2-2073-43d8-8bfc-cd6f44d1fbb0")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21047,6 +21856,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+3V3")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
 			(uuid "206a3449-a2ac-49ae-a9cb-8f5f3172c9d7")
 		)
 		(pad "2" thru_hole circle
@@ -21056,6 +21867,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/VI2C")
+			(pinfunction "Pin_2_2")
+			(pintype "passive")
 			(uuid "896ee3cd-84a8-42b7-89c1-e72b2226ef94")
 		)
 		(pad "3" thru_hole circle
@@ -21065,6 +21878,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/5V_P")
+			(pinfunction "Pin_3_3")
+			(pintype "passive")
 			(uuid "cf701c89-d2e1-45c5-be16-cc90b3c6da7d")
 		)
 		(embedded_fonts no)
@@ -21455,6 +22270,12 @@
 		(path "/34158f0e-0c5a-493a-a47c-1f61a0a99ee8")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21517,6 +22338,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "Net-(F3-Pad1)")
+			(pintype "passive")
 			(uuid "2c315dcf-733d-4931-86cd-c436fd5abb2f")
 		)
 		(pad "2" smd roundrect
@@ -21525,6 +22347,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "/M1A")
+			(pintype "passive")
 			(uuid "2f2422b8-54c8-4553-9ce6-9faf213c8056")
 		)
 		(embedded_fonts no)
@@ -21610,6 +22433,12 @@
 		(path "/f213c8c3-2130-4dd4-8ec1-a15c4efc3d90")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21884,6 +22713,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3")
+			(pinfunction "G_1")
+			(pintype "input")
 			(uuid "3a9a43c7-950e-45ea-839e-bf9131c2d1ed")
 		)
 		(pad "2" smd roundrect
@@ -21892,6 +22723,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/A5{slash}SCL")
+			(pinfunction "S_2")
+			(pintype "passive")
 			(uuid "8a2dd1d4-eaed-4aa9-9a6e-9bd57132bb17")
 		)
 		(pad "3" smd roundrect
@@ -21900,6 +22733,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/EXT_SCL")
+			(pinfunction "D_3")
+			(pintype "passive")
 			(uuid "8a18555c-a7f4-444b-944f-a6f44fc925a0")
 		)
 		(embedded_fonts no)
@@ -21985,6 +22820,12 @@
 		(path "/f28e8e41-38b1-4637-8420-93ba85795197")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22047,6 +22888,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+5V")
+			(pintype "passive")
 			(uuid "89dc8a97-6bb6-40aa-bfba-efebe5476109")
 		)
 		(pad "2" smd roundrect
@@ -22055,6 +22897,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pintype "passive")
 			(uuid "b29ab8a7-1d57-47ca-b95a-8033a3753a09")
 		)
 		(embedded_fonts no)
@@ -22140,6 +22983,12 @@
 		(path "/3fbbfc98-9289-4cd2-99c4-1b7bc572235d")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22202,6 +23051,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "VCC")
+			(pintype "passive")
 			(uuid "45be5754-e3a6-4618-bb59-58f1936776f1")
 		)
 		(pad "2" smd roundrect
@@ -22210,6 +23060,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/VOL_BAT")
+			(pintype "passive")
 			(uuid "fc98a2fd-59b6-4eb6-a598-de67ae2a05a2")
 		)
 		(embedded_fonts no)
@@ -22295,6 +23146,12 @@
 		(path "/e0840a4b-b8cf-4cfe-8bda-e9abe5bcf3b2")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22357,6 +23214,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/5V_P")
+			(pintype "passive")
 			(uuid "bd85563e-9bba-4030-b4cd-d7dd3d9d6043")
 		)
 		(pad "2" smd roundrect
@@ -22365,6 +23223,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/PB_S2_5V")
+			(pintype "passive")
 			(uuid "699e4e98-8e65-4f32-b5cc-275e230ee611")
 		)
 		(embedded_fonts no)
@@ -22463,6 +23322,12 @@
 		(path "/b2788bfe-d780-45d4-8480-9beb9e3efa11")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22525,6 +23390,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "VCC")
+			(pintype "passive")
 			(uuid "e128a00f-2f47-4361-9c41-a0d6559ee8c0")
 		)
 		(pad "2" smd roundrect
@@ -22533,6 +23399,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.217391)
 			(net "GND")
+			(pintype "passive")
 			(uuid "c3a0715a-e655-4dfa-a9c8-79662bde3ecb")
 		)
 		(embedded_fonts no)
@@ -22631,6 +23498,12 @@
 		(path "/169852dc-d2ec-4ed0-8fb0-ae6e61de3bf1")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22905,6 +23778,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3")
+			(pinfunction "G_1")
+			(pintype "input")
 			(uuid "4ed618e8-2cc4-4d3e-9649-52cfcef2ee78")
 		)
 		(pad "2" smd roundrect
@@ -22913,6 +23788,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/PA_S2")
+			(pinfunction "S_2")
+			(pintype "passive")
 			(uuid "dc9ec489-7ceb-4a69-bf66-c82be943abc3")
 		)
 		(pad "3" smd roundrect
@@ -22921,6 +23798,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/PA_S2_5V")
+			(pinfunction "D_3")
+			(pintype "passive")
 			(uuid "ec651a13-b6bd-475e-95b5-5df3ee5f5b28")
 		)
 		(embedded_fonts no)
@@ -23019,6 +23898,12 @@
 		(path "/fe768d9f-3e1a-4d2d-8e2f-ba0b6814692a")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23081,6 +23966,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/5V_P")
+			(pintype "passive")
 			(uuid "5824e62e-8380-42f6-9e03-935c63832a97")
 		)
 		(pad "2" smd roundrect
@@ -23089,6 +23975,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/FB")
+			(pintype "passive")
 			(uuid "89940bcf-8bb8-4252-9944-5e14181a70f9")
 		)
 		(embedded_fonts no)
@@ -23174,6 +24061,12 @@
 		(path "/1b35a00d-fb35-444a-80f8-395a1899bb7f")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23236,6 +24129,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/PA_S2")
+			(pintype "passive")
 			(uuid "f1e2e0a6-d0b1-448a-a4f6-6eca602cb7a2")
 		)
 		(pad "2" smd roundrect
@@ -23244,6 +24138,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3")
+			(pintype "passive")
 			(uuid "8c8e83b9-cfab-4d9f-b23d-0dae17319724")
 		)
 		(embedded_fonts no)
@@ -23342,6 +24237,12 @@
 		(path "/4debc4bf-4ea1-4e09-860a-7bf26730b5ef")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23693,6 +24594,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15625)
 			(net "/5V_P")
+			(pintype "passive")
 			(uuid "0b9c3c49-3ccb-4649-963b-20cb0f84e562")
 		)
 		(pad "2" smd roundrect
@@ -23701,6 +24603,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15625)
 			(net "GND")
+			(pintype "passive")
 			(uuid "e0345318-7df2-40db-aa97-3f1393409b47")
 		)
 		(embedded_fonts no)
@@ -23799,6 +24702,12 @@
 		(path "/fcaf0ab0-e8d8-4e1e-b004-f1f0154e2beb")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24073,6 +24982,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3")
+			(pinfunction "G_1")
+			(pintype "input")
 			(uuid "8ed635a1-17d6-4e8e-b8b3-c00a9c3fb948")
 		)
 		(pad "2" smd roundrect
@@ -24081,6 +24992,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/D10")
+			(pinfunction "S_2")
+			(pintype "passive")
 			(uuid "484b0d62-b64b-436c-ab1f-43029e5d2d86")
 		)
 		(pad "3" smd roundrect
@@ -24089,6 +25002,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/PC_S2_5V")
+			(pinfunction "D_3")
+			(pintype "passive")
 			(uuid "e29b578e-a54d-431f-8099-afcd1ba703fa")
 		)
 		(embedded_fonts no)
@@ -24174,6 +25089,12 @@
 		(path "/0d751525-a81d-46a4-917b-58e28bf352ce")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24448,6 +25369,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3")
+			(pinfunction "G_1")
+			(pintype "input")
 			(uuid "7bbc90fd-3708-420c-89eb-d7f66fa8611a")
 		)
 		(pad "2" smd roundrect
@@ -24456,6 +25379,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/A4{slash}SDA")
+			(pinfunction "S_2")
+			(pintype "passive")
 			(uuid "6d0f98ef-8524-4bd3-ae5a-238037682b78")
 		)
 		(pad "3" smd roundrect
@@ -24464,6 +25389,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/EXT_SDA")
+			(pinfunction "D_3")
+			(pintype "passive")
 			(uuid "97e26cc5-8329-4ca4-85b9-0f805cbd7092")
 		)
 		(embedded_fonts no)
@@ -24550,6 +25477,12 @@
 		(path "/8d10fe82-6a4a-4786-8a37-2bae74aa0b56")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24692,6 +25625,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
 			(uuid "2827a3fb-620c-49ef-b536-b5e0653be9c9")
 		)
 		(pad "2" thru_hole circle
@@ -24701,6 +25636,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+3V3")
+			(pinfunction "Pin_2_2")
+			(pintype "passive")
 			(uuid "7b86d34d-9911-47af-b117-cfcec823b271")
 		)
 		(pad "3" thru_hole circle
@@ -24710,6 +25647,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/A5{slash}SCL")
+			(pinfunction "Pin_3_3")
+			(pintype "passive")
 			(uuid "bec656ad-4a16-44f8-ba17-f3a282d3893c")
 		)
 		(pad "4" thru_hole circle
@@ -24719,6 +25658,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/A4{slash}SDA")
+			(pinfunction "Pin_4_4")
+			(pintype "passive")
 			(uuid "aca75e49-b86b-4da3-8e8e-1fadcef9eccc")
 		)
 		(embedded_fonts no)
@@ -24804,6 +25745,12 @@
 		(path "/83040716-e14f-4c06-9ef2-b9884ef5ba24")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24866,6 +25813,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/5V_P")
+			(pintype "passive")
 			(uuid "182c603b-6e95-42c4-b975-cffbe3a5b57d")
 		)
 		(pad "2" smd roundrect
@@ -24874,6 +25822,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/PB_S1_5V")
+			(pintype "passive")
 			(uuid "5df67ced-54bf-433b-8938-6e280bc01318")
 		)
 		(embedded_fonts no)
@@ -25251,6 +26200,12 @@
 		(path "/b819a893-afb8-465d-8e66-4df5b3a0d4f9")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25313,6 +26268,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/5V_P")
+			(pintype "passive")
 			(uuid "5efc9a45-89c4-4014-b562-048cb9fcad8c")
 		)
 		(pad "2" smd roundrect
@@ -25321,6 +26277,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/PC_S1_5V")
+			(pintype "passive")
 			(uuid "d24b99e1-86a6-418d-b564-7dc1c39a8302")
 		)
 		(embedded_fonts no)
@@ -25419,6 +26376,12 @@
 		(path "/2a355f9d-7ad3-45b4-9198-cf86b959ef11")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25481,6 +26444,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "/VBAT")
+			(pintype "passive")
 			(uuid "395cf6bf-7957-4981-ad1b-a309274e23fe")
 		)
 		(pad "2" smd roundrect
@@ -25489,6 +26453,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "Net-(D13-A)")
+			(pintype "passive")
 			(uuid "09700167-10aa-4c9c-8f8e-746a4f63ba39")
 		)
 		(embedded_fonts no)
@@ -26281,6 +27246,12 @@
 		(path "/1a0aee3b-5d38-43f2-a415-fc5e9aa2f1cb")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26343,6 +27314,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/VI2C")
+			(pintype "passive")
 			(uuid "cedaafbe-3713-492d-9a5e-5e0a69f8a3f4")
 		)
 		(pad "2" smd roundrect
@@ -26351,6 +27323,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/EXT_SDA")
+			(pintype "passive")
 			(uuid "466bd5f3-ce94-494c-a9cd-f0135df4033e")
 		)
 		(embedded_fonts no)
@@ -26624,6 +27597,12 @@
 		(path "/fb57335e-fe32-4dad-8460-da3b7beb7ff7")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26686,6 +27665,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(U1-COMP)")
+			(pintype "passive")
 			(uuid "8bb3a72a-1c66-4023-9c11-7e24a3e0bab7")
 		)
 		(pad "2" smd roundrect
@@ -26694,6 +27674,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(C19-Pad1)")
+			(pintype "passive")
 			(uuid "71762313-333f-42da-b0a4-cfe711b1f342")
 		)
 		(embedded_fonts no)
@@ -26792,6 +27773,12 @@
 		(path "/fca37bd7-64c1-49d3-b797-cebf313feb34")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26854,6 +27841,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(D13-K)")
+			(pintype "passive")
 			(uuid "937a530b-86eb-4ab1-9011-100b8030dcf8")
 		)
 		(pad "2" smd roundrect
@@ -26862,6 +27850,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pintype "passive")
 			(uuid "fd8aaa84-8a93-4d12-9606-fb9cdaa5f720")
 		)
 		(embedded_fonts no)
@@ -26948,6 +27937,12 @@
 		(path "/ec1f4009-c876-4a69-b054-278fd23226dc")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27119,6 +28114,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
 			(uuid "14fd2512-d170-4107-b461-931190b70ebb")
 		)
 		(pad "2" thru_hole circle
@@ -27128,6 +28125,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+3V3")
+			(pinfunction "Pin_2_2")
+			(pintype "passive")
 			(uuid "dbd9bc43-3ba5-44cb-8173-e540f21631df")
 		)
 		(pad "3" thru_hole circle
@@ -27137,6 +28136,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/D13{slash}SCK")
+			(pinfunction "Pin_3_3")
+			(pintype "passive")
 			(uuid "083b33a7-c98d-44ff-b250-e4238b63824c")
 		)
 		(pad "4" thru_hole circle
@@ -27146,6 +28147,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/D11{slash}COPI")
+			(pinfunction "Pin_4_4")
+			(pintype "passive")
 			(uuid "8c9113cd-283e-4e66-bf45-182555e80003")
 		)
 		(pad "5" thru_hole circle
@@ -27155,6 +28158,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/~{RST}")
+			(pinfunction "Pin_5_5")
+			(pintype "passive")
 			(uuid "3c62e1fb-8210-4d8a-8903-a7c7fab2292b")
 		)
 		(pad "6" thru_hole circle
@@ -27164,6 +28169,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/D9")
+			(pinfunction "Pin_6_6")
+			(pintype "passive")
 			(uuid "20d40f30-024c-4852-a4de-b253bf535a2a")
 		)
 		(pad "7" thru_hole circle
@@ -27173,6 +28180,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/D10")
+			(pinfunction "Pin_7_7")
+			(pintype "passive")
 			(uuid "6c2c5f21-a523-49a7-a8a0-d0f6d050b465")
 		)
 		(pad "8" thru_hole circle
@@ -27182,6 +28191,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/D12{slash}CIPO")
+			(pinfunction "Pin_8_8")
+			(pintype "passive")
 			(uuid "9ff2abdd-51dd-4ccc-ab24-ede484b96635")
 		)
 		(embedded_fonts no)
@@ -27280,6 +28291,12 @@
 		(path "/b481bda6-ff16-4565-86c0-657a29333276")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27342,6 +28359,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/M1A_D")
+			(pintype "passive")
 			(uuid "5bd82eeb-9dde-4a70-a7ac-9efabff82d8a")
 		)
 		(pad "2" smd roundrect
@@ -27350,6 +28368,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(F3-Pad1)")
+			(pintype "passive")
 			(uuid "231d374e-7697-4299-8ee5-3e84d63dab73")
 		)
 		(embedded_fonts no)
@@ -27435,6 +28454,12 @@
 		(path "/8eb7de19-e3e5-4dc9-a55a-11a9f5dca135")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27497,6 +28522,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/PB_S1")
+			(pintype "passive")
 			(uuid "2932d26c-f258-4beb-8479-6863b9e14724")
 		)
 		(pad "2" smd roundrect
@@ -27505,6 +28531,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3")
+			(pintype "passive")
 			(uuid "5b1a8669-7acf-4559-963f-87106c37f669")
 		)
 		(embedded_fonts no)
@@ -27590,6 +28617,12 @@
 		(path "/00000000-0000-0000-0000-00005f178e04")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27652,6 +28685,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(D1-A)")
+			(pintype "passive")
 			(uuid "bb90c649-6d9e-4e5a-8e21-c4378bf27cb1")
 		)
 		(pad "2" smd roundrect
@@ -27660,6 +28694,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "VCC")
+			(pintype "passive")
 			(uuid "61aa89eb-7b63-44de-85fb-cf8f75d29703")
 		)
 		(embedded_fonts no)
@@ -28081,6 +29116,12 @@
 		(path "/262d52ab-6390-47c9-8335-31a614237589")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28432,6 +29473,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15625)
 			(net "VCC")
+			(pintype "passive")
 			(uuid "d2aa86c8-54b9-4398-b83e-0208ed5af008")
 		)
 		(pad "2" smd roundrect
@@ -28440,6 +29482,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15625)
 			(net "GND")
+			(pintype "passive")
 			(uuid "46d7222f-ff6d-48b0-82e5-1df14c80e552")
 		)
 		(embedded_fonts no)
@@ -28941,6 +29984,12 @@
 		(path "/0eddfd29-1db9-4d86-9c17-b07bf891b7dc")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29112,6 +30161,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+3V3")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
 			(uuid "97f39edb-3e08-4576-bd3a-0f7ea89d8e20")
 		)
 		(pad "2" thru_hole circle
@@ -29121,6 +30172,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
+			(pinfunction "Pin_2_2")
+			(pintype "passive")
 			(uuid "a452f301-e97a-495d-89af-84e8186b1c61")
 		)
 		(pad "3" thru_hole circle
@@ -29130,6 +30183,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/A5{slash}SCL")
+			(pinfunction "Pin_3_3")
+			(pintype "passive")
 			(uuid "ceadea8b-2a37-4514-a7ef-e4e1f64df59f")
 		)
 		(pad "4" thru_hole circle
@@ -29139,6 +30194,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/A4{slash}SDA")
+			(pinfunction "Pin_4_4")
+			(pintype "passive")
 			(uuid "c6ca0287-6a48-4639-9980-fda973cd0a69")
 		)
 		(pad "5" thru_hole circle
@@ -29148,6 +30205,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J10-Pin_5-Pad5)")
+			(pinfunction "Pin_5_5")
+			(pintype "passive+no_connect")
 			(uuid "a4518a61-9a83-49fd-b51e-90b694328fd4")
 		)
 		(pad "6" thru_hole circle
@@ -29157,6 +30216,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(J10-Pin_6-Pad6)")
+			(pinfunction "Pin_6_6")
+			(pintype "passive+no_connect")
 			(uuid "e440f69f-d23e-443d-94a4-e2ec63b250e8")
 		)
 		(embedded_fonts no)
@@ -29242,6 +30303,12 @@
 		(path "/52c78e22-b5a6-403b-ac94-a133bddeb806")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29304,6 +30371,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/ENC1A_H")
+			(pintype "passive")
 			(uuid "f0e8ee60-dc3d-4b7e-abc8-7d67d9762415")
 		)
 		(pad "2" smd roundrect
@@ -29312,6 +30380,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/ENC1A")
+			(pintype "passive")
 			(uuid "cfbf76ec-8fc1-4f79-a206-62f434471b28")
 		)
 		(embedded_fonts no)
@@ -29397,6 +30466,12 @@
 		(path "/debd61c1-1d90-432d-a669-41cd2cac24c9")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29459,6 +30534,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/VI2C")
+			(pintype "passive")
 			(uuid "91e793d1-8298-4167-b689-337933feac95")
 		)
 		(pad "2" smd roundrect
@@ -29467,6 +30543,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/EXT_SCL")
+			(pintype "passive")
 			(uuid "cb1f6cc9-62d7-461a-bb24-2ae8a8ffc293")
 		)
 		(embedded_fonts no)
@@ -29552,6 +30629,12 @@
 		(path "/624794c9-d51f-45ce-b2cf-bd7de42cabb2")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29614,6 +30697,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/ENC2B_H")
+			(pintype "passive")
 			(uuid "f6818fd9-0316-442e-a775-2691bb71c472")
 		)
 		(pad "2" smd roundrect
@@ -29622,6 +30706,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/ENC2B")
+			(pintype "passive")
 			(uuid "8f18694e-c9bc-4f90-807a-e23570f00efc")
 		)
 		(embedded_fonts no)
@@ -29708,6 +30793,12 @@
 		(path "/cd3ebd4b-d248-444a-be6d-729f2af72cf8")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29879,6 +30970,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
 			(uuid "3a9a8c96-909a-4545-a3db-1951be6c6b6d")
 		)
 		(pad "2" thru_hole circle
@@ -29888,6 +30981,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
+			(pinfunction "Pin_2_2")
+			(pintype "passive")
 			(uuid "85d25e14-4b95-4305-9691-8ff9699a8a8e")
 		)
 		(embedded_fonts no)
@@ -30265,6 +31360,12 @@
 		(path "/fcfc3c49-51a8-40bd-9028-b98fedffc221")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30327,6 +31428,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/VOL_BAT")
+			(pintype "passive")
 			(uuid "42804f84-9425-4e09-9bb3-798aaf48b2ea")
 		)
 		(pad "2" smd roundrect
@@ -30335,6 +31437,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pintype "passive")
 			(uuid "0c9232ec-bb34-47c6-85cf-7b1f26814800")
 		)
 		(embedded_fonts no)
@@ -30421,6 +31524,12 @@
 		(path "/00000000-0000-0000-0000-00005f16f91b")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30563,6 +31672,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(H1-Pin_1)")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
 			(uuid "e1e059aa-5962-48a2-88ce-6ed6cc585945")
 		)
 		(pad "2" thru_hole circle
@@ -30572,6 +31683,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+3V3")
+			(pinfunction "Pin_2_2")
+			(pintype "passive")
 			(uuid "67de261f-f3bc-4091-8281-15ba399e36e2")
 		)
 		(pad "3" thru_hole circle
@@ -30581,6 +31694,8 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
+			(pinfunction "Pin_3_3")
+			(pintype "passive")
 			(uuid "dc849fcb-d8ba-4581-9123-0f1088e99f10")
 		)
 		(embedded_fonts no)
@@ -30679,6 +31794,12 @@
 		(path "/8117a131-9c0f-4f8e-a039-a90935f54252")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30953,6 +32074,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "+3V3")
+			(pinfunction "G_1")
+			(pintype "input")
 			(uuid "136af54c-204a-4a83-8ac4-96a0fb9c987b")
 		)
 		(pad "2" smd roundrect
@@ -30961,6 +32084,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/PB_S1")
+			(pinfunction "S_2")
+			(pintype "passive")
 			(uuid "b2c6bf34-46db-4b9e-8eb9-900809a14df4")
 		)
 		(pad "3" smd roundrect
@@ -30969,6 +32094,8 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/PB_S1_5V")
+			(pinfunction "D_3")
+			(pintype "passive")
 			(uuid "abf116e7-cb3e-4163-ab3d-8e6c3a6c7717")
 		)
 		(embedded_fonts no)
@@ -31067,6 +32194,12 @@
 		(path "/9b4de746-9fda-4fb8-954b-bf617689f7f3")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31129,6 +32262,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(U1-SS{slash}TR)")
+			(pintype "passive")
 			(uuid "f3e09181-232b-4cd4-adb3-5dd662593664")
 		)
 		(pad "2" smd roundrect
@@ -31137,6 +32271,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
+			(pintype "passive")
 			(uuid "8aa09d26-132f-43c0-a286-cbdd424c27e9")
 		)
 		(embedded_fonts no)

@@ -1,6 +1,8 @@
 # À faire / en suspens (Beaper-Esp32s3, carrier DevKitC-1)
 
-Dernière mise à jour : 2026-10-28 (soir). **L'état fait foi dans `MEMOIRE.md`, section « État (2026-10-28) »** ; les positions de la section « Disposition actuelle » ci-dessous datent du 2026-10-22 et sont en partie périmées (U5 tourné de 180° avec broche 1 à droite, J4/J8/SW1 déplacés, plus de bande de protections à la même place). Pour les positions réelles, lire la carte. Historique détaillé : `checkpoints/` (001 à 005, Copilot) et `git log`.
+**Mise à jour 2026-11-14** : schéma révisé (blocs câblés, J17/J18 séparés de U5, LCSC Basic). L'état fait foi dans `MEMOIRE.md`, section « État (2026-11-14) ». Restent : enregistrer le PCB (Ctrl+S) après relecture, reverrouiller U5 et refaire son modèle 3D, relier J17/J18 à U5 au routage (pistes de 2,54 mm), vérifier C19 (120 pF) avec la fiche TI, mettre à jour la cartouche, puis le routage prévu ci-dessous.
+
+Mise à jour précédente : 2026-10-28 (soir). **Pour le reste, voir `MEMOIRE.md`, section « État (2026-10-28) »** ; les positions de la section « Disposition actuelle » ci-dessous datent du 2026-10-22 et sont en partie périmées (U5 tourné de 180° avec broche 1 à droite, J4/J8/SW1 déplacés, plus de bande de protections à la même place). Pour les positions réelles, lire la carte. Historique détaillé : `checkpoints/` (001 à 005, Copilot) et `git log`.
 
 **Prochaine session, dans l'ordre** : (1) valider dans git l'état actuel (U5 2x22, modèles 3D, outils) ; (2) régler les conflits Q7/D13 et C7/Q5 et le courtyard H1/H4/H7/H8 ; (3) **routage** (lignes moteur 1 A, I2C, 5V_P, VCC) puis **zones de masse sans cuivre sous l'antenne du DevKit (x > 104)** ; (4) ERC/DRC finaux, BOM/LCSC, modèles 3D restants ; (5) demander à l'utilisateur de mettre à jour les 19 empreintes restantes depuis la bibliothèque dans KiCad (modèles 3D décochés, sans U5).
 

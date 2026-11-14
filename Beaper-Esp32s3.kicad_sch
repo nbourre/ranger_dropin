@@ -18340,7 +18340,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C2286"
+			(at 41.91 251.46 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:LED")
 		(at 54.61 251.46 90)
@@ -18421,7 +18430,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C2286"
+			(at 54.61 251.46 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:LED")
 		(at 67.31 251.46 90)
@@ -18502,7 +18520,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C2286"
+			(at 67.31 251.46 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:LED")
 		(at 80.01 251.46 90)
@@ -18583,7 +18610,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C2286"
+			(at 80.01 251.46 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 109.22 30.48 0)
@@ -18752,7 +18788,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C22775"
+			(at 121.92 30.48 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R")
 		(at 46.99 168.91 180)
@@ -18833,7 +18878,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C21190"
+			(at 46.99 168.91 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:LED")
 		(at 46.99 177.8 90)
@@ -18914,7 +18968,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C2286"
+			(at 46.99 177.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R")
 		(at 110.49 58.42 180)
@@ -18993,7 +19056,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C21190"
+			(at 110.49 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R")
 		(at 41.91 241.3 0)
@@ -19074,7 +19146,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C22966"
+			(at 41.91 241.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R")
 		(at 54.61 241.3 0)
@@ -19155,7 +19236,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C22966"
+			(at 54.61 241.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R")
 		(at 67.31 241.3 0)
@@ -19236,7 +19326,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C22966"
+			(at 67.31 241.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R")
 		(at 80.01 241.3 0)
@@ -19317,7 +19416,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C22966"
+			(at 80.01 241.3 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R")
 		(at 175.26 90.17 270)
@@ -19396,7 +19504,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C22775"
+			(at 175.26 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R")
 		(at 175.26 124.46 270)
@@ -19475,7 +19592,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C22775"
+			(at 175.26 124.46 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:GND")
 		(at 46.99 182.88 0)
@@ -20170,7 +20296,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C22775"
+			(at 179.07 209.55 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:GND")
 		(at 276.86 299.72 270)
@@ -20564,7 +20699,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C107009"
+		(property "LCSC" "C14441"
 			(at 300.99 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -21079,7 +21214,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C23197"
+			(at 337.82 233.68 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
 		(at 48.26 302.26 270)
@@ -21163,7 +21307,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C7420339"
+			(at 48.26 302.26 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:+5V")
 		(at 240.03 231.14 0)
@@ -21412,7 +21565,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C307331"
+			(at 243.84 97.79 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:+5V")
 		(at 106.68 388.62 90)
@@ -21570,7 +21732,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C23162"
+			(at 180.34 45.72 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:GND")
 		(at 302.26 203.2 0)
@@ -21867,7 +22038,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C82045"
+		(property "LCSC" "C7420339"
 			(at 144.78 325.12 0)
 			(hide yes)
 			(show_name no)
@@ -21976,7 +22147,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C25804"
+			(at 132.08 300.99 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:GND")
 		(at 326.39 52.07 0)
@@ -22286,7 +22466,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C23162"
+			(at 60.96 300.99 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 99.06 292.1 0)
@@ -22447,7 +22636,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C25804"
+			(at 132.08 323.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:GND")
 		(at 381 83.82 0)
@@ -23247,7 +23445,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C353487"
+		(property "LCSC" "C19077532"
 			(at 302.26 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -23337,7 +23535,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C353487"
+		(property "LCSC" "C19077532"
 			(at 302.26 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -23979,7 +24177,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C353487"
+		(property "LCSC" "C19077532"
 			(at 302.26 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -24342,7 +24540,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C25803"
+			(at 243.84 68.58 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:VCC")
 		(at 314.96 76.2 0)
@@ -25079,7 +25286,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C25804"
+			(at 157.48 300.99 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R")
 		(at 237.49 200.66 0)
@@ -25160,7 +25376,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C25804"
+			(at 237.49 200.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_name "VCC_1")
 		(lib_id "power:VCC")
@@ -25414,7 +25639,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C307331"
+			(at 274.32 139.7 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "ARPS:MCP9700A-ETO")
 		(at 257.81 110.49 0)
@@ -25530,7 +25764,7 @@
 				)
 			)
 		)
-		(property "Value" "1.91k"
+		(property "Value" "5.1k"
 			(at 326.39 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25573,7 +25807,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22853"
+		(property "LCSC" "C23186"
 			(at 326.39 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -25679,7 +25913,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C23197"
+			(at 337.82 177.8 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
 		(at 332.74 302.26 270)
@@ -25744,7 +25987,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C82045"
+		(property "LCSC" "C7420339"
 			(at 332.74 302.26 0)
 			(hide yes)
 			(show_name no)
@@ -25932,7 +26175,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C22962"
+			(at 96.52 383.54 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Connector:RJ25")
 		(at 289.56 299.72 180)
@@ -26266,7 +26518,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C22452"
+			(at 350.52 76.2 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:+3V3")
 		(at 347.98 246.38 90)
@@ -26730,7 +26991,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C23197"
+			(at 337.82 223.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:+3V3")
 		(at 233.68 161.29 90)
@@ -27268,7 +27538,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C908809"
+		(property "LCSC" "C19077524"
 			(at 347.98 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -27512,7 +27782,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C353487"
+		(property "LCSC" "C19077532"
 			(at 302.26 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -28023,7 +28293,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C82045"
+		(property "LCSC" "C7420339"
 			(at 238.76 302.26 0)
 			(hide yes)
 			(show_name no)
@@ -28209,7 +28479,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C25804"
+			(at 251.46 300.99 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Connector:RJ25")
 		(at 195.58 299.72 180)
@@ -28545,7 +28824,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C52923"
+			(at 260.35 72.39 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
 		(at 238.76 325.12 270)
@@ -28610,7 +28898,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C82045"
+		(property "LCSC" "C7420339"
 			(at 238.76 325.12 0)
 			(hide yes)
 			(show_name no)
@@ -28889,7 +29177,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C25804"
+			(at 226.06 300.99 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:GND")
 		(at 321.31 44.45 0)
@@ -29201,7 +29498,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C307331"
+			(at 109.22 200.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:+5V")
 		(at 186.69 160.02 0)
@@ -29760,7 +30066,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C7484"
+			(at 69.85 383.54 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R")
 		(at 345.44 323.85 0)
@@ -29839,7 +30154,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C25804"
+			(at 345.44 323.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_name "+3V3_1")
 		(lib_id "power:+3V3")
@@ -30258,7 +30582,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C25804"
+			(at 157.48 323.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
 		(at 144.78 302.26 270)
@@ -30323,7 +30656,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C82045"
+		(property "LCSC" "C7420339"
 			(at 144.78 302.26 0)
 			(hide yes)
 			(show_name no)
@@ -30434,7 +30767,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C307331"
+			(at 57.15 369.57 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_name "+3V3_1")
 		(lib_id "power:+3V3")
@@ -30592,7 +30934,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C25804"
+			(at 87.63 354.33 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:+5V")
 		(at 260.35 191.77 0)
@@ -31495,7 +31846,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C23197"
+			(at 337.82 167.64 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R")
 		(at 345.44 300.99 0)
@@ -31574,7 +31934,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C25804"
+			(at 345.44 300.99 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:GND")
 		(at 157.48 381 0)
@@ -31902,7 +32271,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C307331"
+			(at 287.02 139.7 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R")
 		(at 179.07 198.12 270)
@@ -31981,7 +32359,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C22775"
+			(at 179.07 198.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 304.8 40.64 270)
@@ -32227,7 +32614,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C25804"
+			(at 320.04 323.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "ESP32S3:ESP32-S3-DevKitC-1")
 		(at 60.96 27.94 0)
@@ -33674,7 +34070,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C25804"
+			(at 320.04 300.99 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:GND")
 		(at 109.22 205.74 0)
@@ -33908,7 +34313,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C23162"
+			(at 60.96 323.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R")
 		(at 226.06 323.85 180)
@@ -33987,7 +34401,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C25804"
+			(at 226.06 323.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R")
 		(at 251.46 323.85 0)
@@ -34066,7 +34489,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C25804"
+			(at 251.46 323.85 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:C")
 		(at 295.91 50.8 0)
@@ -34314,7 +34746,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C22809"
+			(at 96.52 350.52 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "power:GND")
 		(at 252.73 76.2 0)
@@ -34811,7 +35252,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C23162"
+			(at 171.45 45.72 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:FerriteBead")
 		(at 314.96 195.58 90)
@@ -35062,7 +35512,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C7420339"
+			(at 48.26 325.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:C")
 		(at 247.65 200.66 0)
@@ -35143,7 +35602,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C307331"
+			(at 247.65 200.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:Fuse")
 		(at 363.22 76.2 90)
@@ -36050,7 +36518,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C82045"
+		(property "LCSC" "C7420339"
 			(at 332.74 325.12 0)
 			(hide yes)
 			(show_name no)
@@ -36159,7 +36627,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "LCSC" "C23196"
+			(at 252.73 72.39 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:R")
 		(at 326.39 38.1 0)
@@ -36179,7 +36656,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "27k"
 			(at 326.39 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36222,7 +36699,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C22967"
 			(at 326.39 38.1 0)
 			(hide yes)
 			(show_name no)

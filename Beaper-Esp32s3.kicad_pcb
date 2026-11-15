@@ -16058,7 +16058,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "TO?92*")
+		(property ki_fp_filters "SOT?23*")
 		(path "/522a640f-bd68-48af-b369-ff3c37cfeaff")
 		(sheetname "/")
 		(sheetfile "Beaper-Esp32s3.kicad_sch")
@@ -24355,7 +24355,7 @@
 			(at -1.269999 -2.77 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "becbb4da-f2e7-4329-a9a3-74926e5f017b")
+			(uuid "fe66c959-2cc3-4992-b6f6-d9628c9ce0e2")
 			(effects
 				(font
 					(size 1 1)
@@ -24368,7 +24368,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "0e33c082-249e-4950-a3c4-7e840e97c895")
+			(uuid "d1d8aa4a-6329-47c6-89e2-9389d2bfba30")
 			(effects
 				(font
 					(size 1 1)
@@ -24380,7 +24380,7 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8b831d1c-f025-48f3-878d-833762db1aa5")
+			(uuid "44d43ccb-c9dd-484f-8e5c-06f8bd715267")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24391,7 +24391,7 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dcd76956-6984-4e9f-8786-442210d857dd")
+			(uuid "b767187f-d170-4715-bc99-971e8428af38")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33941,6 +33941,11 @@
 				(thickness 0.12)
 			)
 		)
+	)
+	(group ""
+		(uuid "1642ad88-af4a-4318-9ea4-ab70e7696c76")
+		(locked yes)
+		(members "61865afd-e6be-47b4-badb-c9bd413e89bb" "c04b3b79-fb33-4215-a9fe-fc41935c1889")
 	)
 	(group ""
 		(uuid "571c831e-14f8-4ffd-a955-83ae5fc3fc4d")

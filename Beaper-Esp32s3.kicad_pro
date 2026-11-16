@@ -77,7 +77,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|53150000|30000000|ec1ac07f-7150-4619-b12d-c100c325d08d|bd593b30-cc3e-41c1-9cf5-8011a01eb1c3",
+          ""
+        ],
+        [
+          "silk_edge_clearance|62350000|30000000|ec1ac07f-7150-4619-b12d-c100c325d08d|1d021df2-5442-4d08-b3c6-c7fdd8d4b659",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -153,7 +162,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.075,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.0,
         "min_hole_to_hole": 0.25,
@@ -163,10 +172,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_through_hole_diameter": 0.15,
+        "min_track_width": 0.127,
         "min_via_annular_width": 0.05,
-        "min_via_diameter": 0.4,
+        "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -529,7 +538,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2032,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -713,7 +722,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "J2",
+    "used_designators": "R45-56,J2,J5-7,#PWR52,#PWR81-82,#PWR85-91,Q3-8",
     "variants": []
   },
   "sheets": [

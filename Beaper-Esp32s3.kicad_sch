@@ -16647,7 +16647,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 293.37) (xy 345.44 297.18)
+			(xy 345.44 293.37) (xy 345.44 295.91)
 		)
 		(stroke
 			(width 0)
@@ -17154,6 +17154,26 @@
 			(type default)
 		)
 		(uuid "73acbdee-38fe-4eff-b697-2bae99563441")
+	)
+	(wire
+		(pts
+			(xy 345.44 326.39) (xy 345.44 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7592c8c2-f305-4822-8cc2-0e398102c214")
+	)
+	(wire
+		(pts
+			(xy 345.44 303.53) (xy 345.44 304.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75eed9a1-1eb2-4047-a266-7b5d625c0b55")
 	)
 	(wire
 		(pts
@@ -19737,7 +19757,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 316.23) (xy 345.44 320.04)
+			(xy 345.44 316.23) (xy 345.44 318.77)
 		)
 		(stroke
 			(width 0)
@@ -24588,9 +24608,9 @@
 		)
 		(property "LCSC" "C42380984"
 			(at 422.91 134.62 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34754,7 +34774,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 345.44 323.85 0)
+		(at 345.44 322.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34764,7 +34784,7 @@
 		(dnp no)
 		(uuid "9d2f0bf3-6726-4a16-8857-56f9911fe5f3")
 		(property "Reference" "R56"
-			(at 347.472 323.85 90)
+			(at 347.472 322.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34774,7 +34794,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 345.44 323.85 90)
+			(at 345.44 322.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34784,7 +34804,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 345.44 323.85 0)
+			(at 345.44 322.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34795,7 +34815,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 345.44 323.85 0)
+			(at 345.44 322.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34806,7 +34826,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 345.44 323.85 0)
+			(at 345.44 322.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34817,7 +34837,7 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 345.44 323.85 0)
+			(at 345.44 322.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37099,7 +37119,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 345.44 300.99 0)
+		(at 345.44 299.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37109,7 +37129,7 @@
 		(dnp no)
 		(uuid "b819a893-afb8-465d-8e66-4df5b3a0d4f9")
 		(property "Reference" "R55"
-			(at 347.472 300.99 90)
+			(at 347.472 299.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37119,7 +37139,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 345.44 300.99 90)
+			(at 345.44 299.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37129,7 +37149,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 345.44 300.99 0)
+			(at 345.44 299.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37140,7 +37160,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 345.44 300.99 0)
+			(at 345.44 299.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37151,7 +37171,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 345.44 300.99 0)
+			(at 345.44 299.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37162,7 +37182,7 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 345.44 300.99 0)
+			(at 345.44 299.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
